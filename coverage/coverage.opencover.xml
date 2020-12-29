@@ -2,16 +2,16 @@
 <CoverageSession>
   <Summary numSequencePoints="28" visitedSequencePoints="28" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="8" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
   <Modules>
-    <Module hash="C35BE86B-9ECF-402A-AD5F-8D9FE303FF17">
+    <Module hash="60EB5EED-9A22-424F-8D40-5A1241CA355C">
       <ModulePath>ValidatorAbstractions.dll</ModulePath>
-      <ModuleTime>2020-12-29T04:34:33</ModuleTime>
+      <ModuleTime>2020-12-29T05:00:19</ModuleTime>
       <ModuleName>ValidatorAbstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
-    <Module hash="2CE45624-A7EA-4E2C-9374-3A24F4CAF627">
+    <Module hash="B2F74C74-C340-4CDE-9D9F-8078D49C6FA7">
       <ModulePath>Portugal.Niss.Validator.dll</ModulePath>
-      <ModuleTime>2020-12-29T04:34:33</ModuleTime>
+      <ModuleTime>2020-12-29T05:00:19</ModuleTime>
       <ModuleName>Portugal.Niss.Validator</ModuleName>
       <Files>
         <File uid="1" fullPath="/Users/nunocancelo/Projects/document-number-validator/src/Portugal.Niss.Validator/NissValidator.cs" />
