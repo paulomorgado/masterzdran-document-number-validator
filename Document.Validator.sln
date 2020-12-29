@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "coverage", "coverage", "{B7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorAbstractions", "src\ValidatorAbstractions\ValidatorAbstractions.csproj", "{56098E27-188E-42D5-BCFF-4F898F16B0E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portugal.Niss.Validator", "src\Portugal.Niss.Validator\Portugal.Niss.Validator.csproj", "{632B3326-018A-40B3-A802-E3430A3DA8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portugal.Niss.Validator.Tests", "tests\Portugal.Niss.Validator.Tests\Portugal.Niss.Validator.Tests.csproj", "{E47D20E2-6AE0-461B-B2E1-E67FFF9363D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{56098E27-188E-42D5-BCFF-4F898F16B0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56098E27-188E-42D5-BCFF-4F898F16B0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56098E27-188E-42D5-BCFF-4F898F16B0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632B3326-018A-40B3-A802-E3430A3DA8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632B3326-018A-40B3-A802-E3430A3DA8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632B3326-018A-40B3-A802-E3430A3DA8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632B3326-018A-40B3-A802-E3430A3DA8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47D20E2-6AE0-461B-B2E1-E67FFF9363D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47D20E2-6AE0-461B-B2E1-E67FFF9363D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47D20E2-6AE0-461B-B2E1-E67FFF9363D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47D20E2-6AE0-461B-B2E1-E67FFF9363D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +64,7 @@ Global
 		{4E16F536-C39A-4009-9B2E-7AB99B3A4FA2} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{D486314F-5766-44A0-B616-7DBEA0E4D302} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 		{56098E27-188E-42D5-BCFF-4F898F16B0E5} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{632B3326-018A-40B3-A802-E3430A3DA8CA} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{E47D20E2-6AE0-461B-B2E1-E67FFF9363D2} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 	EndGlobalSection
 EndGlobal

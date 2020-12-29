@@ -19,9 +19,9 @@ namespace Portugal.Nif.Validator
         return false;
       }
 
-      int valueAsInt = 0;
+      long valueAsInt = 0;
 
-      if (!Int32.TryParse(value, out valueAsInt))
+      if (!Int64.TryParse(value, out valueAsInt))
       {
         return false;
       }
@@ -36,13 +36,13 @@ namespace Portugal.Nif.Validator
       return false;
     }
 
-    private bool ValidateNif(int value)
+    private bool ValidateNif(long value)
     {
-      var checkDigit = value % 10;
-      var number = (int)(value / 10);
-      var sum = 0;
+      long checkDigit = value % 10;
+      long number = (int)(value / 10);
+      long sum = 0;
 
-      var remainer = 0;
+      long remainer = 0;
       for (int factor = 2; factor < 10; factor++)
       {
         remainer = number % 10;
