@@ -1,3 +1,4 @@
+using DocumentNumber.Portugal.Niss.Validator;
 using Shouldly;
 using System;
 using Xunit;

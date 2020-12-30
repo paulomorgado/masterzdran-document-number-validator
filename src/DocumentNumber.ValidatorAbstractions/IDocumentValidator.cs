@@ -1,7 +1,7 @@
 ﻿using System;
-namespace ValidatorAbstractions
+namespace DocumentNumber.ValidatorAbstractions
 {
-  public interface IDocumentValidator
+  public interface IDocumentNumberValidator
   {
     /// <summary>
     /// Apply the validation algorithm over the value.

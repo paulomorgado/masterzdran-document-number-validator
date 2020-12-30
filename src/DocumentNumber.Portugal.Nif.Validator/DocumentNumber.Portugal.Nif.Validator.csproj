@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<AssemblyName>DocumentNumber.Portugal.Nif.Validator</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.Portugal.Nif.Validator</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Authors>Nuno Cancelo</Authors>
+		<Title>DocumentNumber.Portugal.Nif.Validator</Title>
+		<Description>A library that validates if the NIF (tax payer id) is valid or not.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>cards.64.png</PackageIcon>
+		<PackageTags>Document Number Validation</PackageTags>
+		<RepositoryUrl>https://github.com/masterzdran/document-number-validator</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryBranch>main</RepositoryBranch>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../../images/cards.64.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.0.0" />
+	</ItemGroup>
+</Project>
