@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<AssemblyName>DocumentNumber.ValidatorAbstractions</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.ValidatorAbstractions</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Authors>Nuno Cancelo</Authors>
+		<Title>DocumentNumber.ValidatorAbstractions</Title>
+		<Description>A library that validates if the document id is valid or not.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>cards.64.png</PackageIcon>
+		<PackageTags>Document Number Validation</PackageTags>
+		<RepositoryUrl>https://github.com/masterzdran/document-number-validator</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryBranch>main</RepositoryBranch>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../../images/cards.64.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>

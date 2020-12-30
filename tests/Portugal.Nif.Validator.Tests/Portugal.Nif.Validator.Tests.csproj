@@ -17,7 +17,6 @@
 		</PackageReference>
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\..\src\ValidatorAbstractions\ValidatorAbstractions.csproj" />
-	  <ProjectReference Include="..\..\src\Portugal.Nif.Validator\Portugal.Nif.Validator.csproj" />
+	  <ProjectReference Include="..\..\src\DocumentNumber.Portugal.Nif.Validator\DocumentNumber.Portugal.Nif.Validator.csproj" />
 	</ItemGroup>
 </Project>

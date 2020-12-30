@@ -1,9 +1,7 @@
 ﻿using System;
-using ValidatorAbstractions;
-
-namespace Portugal.Niss.Validator
+namespace DocumentNumber.Portugal.Niss.Validator
 {
-  public sealed class NissValidator : IDocumentValidator
+  public sealed class NissValidator : INissValidator
   {
     ///<inheritdoc/>
     public bool Validate(string value)

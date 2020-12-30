@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using ValidatorAbstractions;
+using DocumentNumber.ValidatorAbstractions;
 
 namespace Portugal.Nif.Validator
 {
-  public sealed class NifValidator : IDocumentValidator
+  public sealed class NifValidator : INifValidator
   {
     ///<inheritdoc/>
     public bool Validate(string value)

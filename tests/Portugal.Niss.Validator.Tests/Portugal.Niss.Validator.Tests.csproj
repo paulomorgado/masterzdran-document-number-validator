@@ -20,7 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Portugal.Niss.Validator\Portugal.Niss.Validator.csproj" />
-    <ProjectReference Include="..\..\src\ValidatorAbstractions\ValidatorAbstractions.csproj" />
+    <ProjectReference Include="..\..\src\DocumentNumber.Portugal.Niss.Validator\DocumentNumber.Portugal.Niss.Validator.csproj" />
   </ItemGroup>
 </Project>
