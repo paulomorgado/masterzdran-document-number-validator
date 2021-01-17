@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
 		<AssemblyName>DocumentNumber.ValidatorAbstractions</AssemblyName>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>DocumentNumber.ValidatorAbstractions</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
+		<PackageVersion>1.1.0</PackageVersion>
 		<Authors>Nuno Cancelo</Authors>
 		<Title>DocumentNumber.ValidatorAbstractions</Title>
 		<Description>A library that validates if the document id is valid or not.</Description>
