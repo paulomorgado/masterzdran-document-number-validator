@@ -11,11 +11,14 @@ An set of libraries to validate the document number for a particular document an
 * DocumentNumber.Portugal.Niss.Validator
     * Interface for Dependency Injection.
     * Implementation of NISS validation algorithm.
-
+* DocumentNumber.Portugal.CitizenCard.Validator
+    * Interface for Dependency Injection.
+    * Implementation of Citizen Card validation algorithm.
 
 # Validators
-* Portugal NIF Validator
-* Portugal NISS Validator
+* Portugal NIF Number Validator
+* Portugal NISS Number Validator
+* Portugal Citizen Card Number Validator
 
 # Contributors
 * @masterzdran
