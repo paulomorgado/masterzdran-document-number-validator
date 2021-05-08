@@ -2,14 +2,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
-		<AssemblyName>DocumentNumber.ValidatorAbstractions</AssemblyName>
+		<AssemblyName>DocumentNumber.PaymentCardNumber.VISA.Validator</AssemblyName>
 	</PropertyGroup>
 	<PropertyGroup>
-		<PackageId>DocumentNumber.ValidatorAbstractions</PackageId>
-		<PackageVersion>1.1.0</PackageVersion>
+		<PackageId>DocumentNumber.PaymentCardNumber.VISA.Validator</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
 		<Authors>Nuno Cancelo</Authors>
-		<Title>DocumentNumber.ValidatorAbstractions</Title>
-		<Description>A library that validates if the document id is valid or not.</Description>
+		<Title>DocumentNumber.PaymentCardNumber.VISA.Validator</Title>
+		<Description>A library that validates if the payment card number (VISA) is valid or not.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageIcon>cards.64.png</PackageIcon>
 		<PackageTags>Document Number Validation</PackageTags>
@@ -19,5 +19,11 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<None Include="../../images/cards.64.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.1.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\DocumentNumber.PaymentCardNumber.Common\DocumentNumber.PaymentCardNumber.Common.csproj" />
 	</ItemGroup>
 </Project>

@@ -34,6 +34,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.Cit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portugal.CitizenCard.Validator.Tests", "tests\Portugal.CitizenCard.Validator.Tests\Portugal.CitizenCard.Validator.Tests.csproj", "{C410036A-D191-45D1-A641-A1B346DC7AAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISA.Validator", "src\DocumentNumber.PaymentCardNumber.VISA.Validator\DocumentNumber.PaymentCardNumber.VISA.Validator.csproj", "{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISA.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISA.Validator.Tests\DocumentNumber.PaymentCardNumber.VISA.Validator.Tests.csproj", "{2FD333BC-0804-437D-94CE-585D82C32003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Common", "src\DocumentNumber.PaymentCardNumber.Common\DocumentNumber.PaymentCardNumber.Common.csproj", "{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Common.Tests", "tests\DocumentNumber.PaymentCardNumber.Common.Tests\DocumentNumber.PaymentCardNumber.Common.Tests.csproj", "{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Validator", "src\DocumentNumber.PaymentCardNumber.Validator\DocumentNumber.PaymentCardNumber.Validator.csproj", "{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +78,26 @@ Global
 		{C410036A-D191-45D1-A641-A1B346DC7AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C410036A-D191-45D1-A641-A1B346DC7AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C410036A-D191-45D1-A641-A1B346DC7AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD333BC-0804-437D-94CE-585D82C32003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD333BC-0804-437D-94CE-585D82C32003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD333BC-0804-437D-94CE-585D82C32003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD333BC-0804-437D-94CE-585D82C32003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,5 +113,10 @@ Global
 		{1715B732-27C6-4A3E-BE57-4AD754F4F799} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 		{1F6B38D6-6B3A-4079-A1E2-44364DF2EF45} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{C410036A-D191-45D1-A641-A1B346DC7AAA} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
+		{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{2FD333BC-0804-437D-94CE-585D82C32003} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
+		{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
+		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 	EndGlobalSection
 EndGlobal
