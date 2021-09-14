@@ -1,11 +1,12 @@
 ﻿using System;
-using DocumentNumber.PaymentCardNumber.Common;
+using DocumentNumber.PaymentCardNumber.Common.Algorithms;
+using DocumentNumber.PaymentCardNumber.Common.Enums;
 
 namespace DocumentNumber.PaymentCardNumber.VISA.Validator
 {
   public sealed class VisaPaymentCardValidator : IVisaPaymentCardValidator
   {
-    public PaymentCardIssuerEnum IssuerIdentity => PaymentCardIssuerEnum.Visa;
+    public PaymentCardIssuer IssuerIdentity => PaymentCardIssuer.Visa;
 
     public bool IsSupported(string paymentCardNumber)
     {

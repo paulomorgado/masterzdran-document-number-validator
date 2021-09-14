@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DocumentNumber.PaymentCardNumber.Common.Enums;
+using DocumentNumber.PaymentCardNumber.Common.Issuer;
+using System;
 using System.Collections.Generic;
 
 namespace DocumentNumber.PaymentCardNumber.Common
@@ -17,7 +19,7 @@ namespace DocumentNumber.PaymentCardNumber.Common
       this.IssuerIdentificationValidators = issuerIdentificationValidators;
     }
 
-    public PaymentCardIssuerEnum SupportedPaymentCardIssuer(string paymentCardNumber)
+    public PaymentCardIssuer SupportedPaymentCardIssuer(string paymentCardNumber)
     {
 
       foreach (IIssuerIdentificationValidator issuer in IssuerIdentificationValidators)
@@ -28,7 +30,7 @@ namespace DocumentNumber.PaymentCardNumber.Common
         }
       }
 
-      return PaymentCardIssuerEnum.Unsuportted;
+      return PaymentCardIssuer.Unsuportted;
     }
 
 

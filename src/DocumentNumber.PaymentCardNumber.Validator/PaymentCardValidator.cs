@@ -1,4 +1,5 @@
 ﻿using DocumentNumber.PaymentCardNumber.Common;
+using DocumentNumber.PaymentCardNumber.Common.Exceptions;
 using DocumentNumber.PaymentCardNumber.VISA.Validator;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ namespace DocumentNumber.PaymentCardNumber.Validator
 {
   public sealed class PaymentCardValidator : IPaymentCardValidator
   {
-    private IEnumerable<IPaymentCardDocumentValidator> issuerIdentificationValidators;
+    private readonly IEnumerable<IPaymentCardDocumentValidator> issuerIdentificationValidators;
 
 
     public PaymentCardValidator(IVisaPaymentCardValidator visaPaymentCardValidator)
@@ -33,7 +34,7 @@ namespace DocumentNumber.PaymentCardNumber.Validator
           return issuer.Validate(value);
         }
       }
-      throw new UnsuportedPaymentCardIssuer(value);
+      throw new UnsuportedPaymentCardIssuerException(value);
     }
   }
 }

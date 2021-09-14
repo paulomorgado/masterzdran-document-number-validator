@@ -3,66 +3,64 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.809.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.Nif.Validator", "src\DocumentNumber.Portugal.Nif.Validator\DocumentNumber.Portugal.Nif.Validator.csproj", "{4E16F536-C39A-4009-9B2E-7AB99B3A4FA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Nif.Validator", "src\DocumentNumber.Portugal.Nif.Validator\DocumentNumber.Portugal.Nif.Validator.csproj", "{4E16F536-C39A-4009-9B2E-7AB99B3A4FA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2233F54-B72E-404D-BB67-72FBC76E7FF1}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
-		LICENSE = LICENSE
-		README.md = README.md
-		global.json = global.json
-		nuget.config = nuget.config
 		CHANGELOG.md = CHANGELOG.md
+		global.json = global.json
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D81C1D7-6538-46DB-A36C-ACDC0775A365}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C097DE10-B80A-4DFF-8E86-869F99876ECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portugal.Nif.Validator.Tests", "tests\Portugal.Nif.Validator.Tests\Portugal.Nif.Validator.Tests.csproj", "{D486314F-5766-44A0-B616-7DBEA0E4D302}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portugal.Nif.Validator.Tests", "tests\Portugal.Nif.Validator.Tests\Portugal.Nif.Validator.Tests.csproj", "{D486314F-5766-44A0-B616-7DBEA0E4D302}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "coverage", "coverage", "{B7BB3832-E0B9-40E3-A681-785466AA317B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.ValidatorAbstractions", "src\DocumentNumber.ValidatorAbstractions\DocumentNumber.ValidatorAbstractions.csproj", "{56098E27-188E-42D5-BCFF-4F898F16B0E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.ValidatorAbstractions", "src\DocumentNumber.ValidatorAbstractions\DocumentNumber.ValidatorAbstractions.csproj", "{56098E27-188E-42D5-BCFF-4F898F16B0E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.Niss.Validator", "src\DocumentNumber.Portugal.Niss.Validator\DocumentNumber.Portugal.Niss.Validator.csproj", "{F5C80584-8CEB-4491-8994-849275FCE584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Niss.Validator", "src\DocumentNumber.Portugal.Niss.Validator\DocumentNumber.Portugal.Niss.Validator.csproj", "{F5C80584-8CEB-4491-8994-849275FCE584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portugal.Niss.Validator.Tests", "tests\Portugal.Niss.Validator.Tests\Portugal.Niss.Validator.Tests.csproj", "{1715B732-27C6-4A3E-BE57-4AD754F4F799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portugal.Niss.Validator.Tests", "tests\Portugal.Niss.Validator.Tests\Portugal.Niss.Validator.Tests.csproj", "{1715B732-27C6-4A3E-BE57-4AD754F4F799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.CitizenCard.Validator", "src\DocumentNumber.Portugal.CitizenCard.Validator\DocumentNumber.Portugal.CitizenCard.Validator.csproj", "{1F6B38D6-6B3A-4079-A1E2-44364DF2EF45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.CitizenCard.Validator", "src\DocumentNumber.Portugal.CitizenCard.Validator\DocumentNumber.Portugal.CitizenCard.Validator.csproj", "{1F6B38D6-6B3A-4079-A1E2-44364DF2EF45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portugal.CitizenCard.Validator.Tests", "tests\Portugal.CitizenCard.Validator.Tests\Portugal.CitizenCard.Validator.Tests.csproj", "{C410036A-D191-45D1-A641-A1B346DC7AAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portugal.CitizenCard.Validator.Tests", "tests\Portugal.CitizenCard.Validator.Tests\Portugal.CitizenCard.Validator.Tests.csproj", "{C410036A-D191-45D1-A641-A1B346DC7AAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISA.Validator", "src\DocumentNumber.PaymentCardNumber.VISA.Validator\DocumentNumber.PaymentCardNumber.VISA.Validator.csproj", "{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISA.Validator", "src\DocumentNumber.PaymentCardNumber.VISA.Validator\DocumentNumber.PaymentCardNumber.VISA.Validator.csproj", "{97D97F97-FD77-4F6F-9E2C-0BAE95BC8D7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISA.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISA.Validator.Tests\DocumentNumber.PaymentCardNumber.VISA.Validator.Tests.csproj", "{2FD333BC-0804-437D-94CE-585D82C32003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISA.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISA.Validator.Tests\DocumentNumber.PaymentCardNumber.VISA.Validator.Tests.csproj", "{2FD333BC-0804-437D-94CE-585D82C32003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Common", "src\DocumentNumber.PaymentCardNumber.Common\DocumentNumber.PaymentCardNumber.Common.csproj", "{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Common", "src\DocumentNumber.PaymentCardNumber.Common\DocumentNumber.PaymentCardNumber.Common.csproj", "{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Common.Tests", "tests\DocumentNumber.PaymentCardNumber.Common.Tests\DocumentNumber.PaymentCardNumber.Common.Tests.csproj", "{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Common.Tests", "tests\DocumentNumber.PaymentCardNumber.Common.Tests\DocumentNumber.PaymentCardNumber.Common.Tests.csproj", "{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Validator", "src\DocumentNumber.PaymentCardNumber.Validator\DocumentNumber.PaymentCardNumber.Validator.csproj", "{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Validator", "src\DocumentNumber.PaymentCardNumber.VISAElectron.Validator\DocumentNumber.PaymentCardNumber.VISAElectron.Validator.csproj", "{F173B3D9-2D55-4617-888D-1F912874D5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Validator", "src\DocumentNumber.PaymentCardNumber.VISAElectron.Validator\DocumentNumber.PaymentCardNumber.VISAElectron.Validator.csproj", "{F173B3D9-2D55-4617-888D-1F912874D5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISAElectron.Validator.Tests\DocumentNumber.PaymentCardNumber.VISAElectron.Validator.Tests.csproj", "{5E83910B-0FFC-4C52-92EE-2B9EBF475C68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISAElectron.Validator.Tests\DocumentNumber.PaymentCardNumber.VISAElectron.Validator.Tests.csproj", "{5E83910B-0FFC-4C52-92EE-2B9EBF475C68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.AmericaExpress.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.AmericaExpress.Validator.Tests\DocumentNumber.PaymentCardNumber.AmericaExpress.Validator.Tests.csproj", "{93B8322F-AA06-4B85-9BBC-F022493504BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.AmericaExpress.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.AmericaExpress.Validator.Tests\DocumentNumber.PaymentCardNumber.AmericaExpress.Validator.Tests.csproj", "{93B8322F-AA06-4B85-9BBC-F022493504BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.MaestroUK.Validator.Tests\DocumentNumber.PaymentCardNumber.MaestroUK.Validator.Tests.csproj", "{7CC66399-116C-4ED3-923E-F58CA333C375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.MaestroUK.Validator.Tests\DocumentNumber.PaymentCardNumber.MaestroUK.Validator.Tests.csproj", "{7CC66399-116C-4ED3-923E-F58CA333C375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Maestro.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.Maestro.Validator.Tests\DocumentNumber.PaymentCardNumber.Maestro.Validator.Tests.csproj", "{FD8359A1-45BC-4B56-A758-AD875C7B4A4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Maestro.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.Maestro.Validator.Tests\DocumentNumber.PaymentCardNumber.Maestro.Validator.Tests.csproj", "{FD8359A1-45BC-4B56-A758-AD875C7B4A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Mastercard.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.Mastercard.Validator.Tests\DocumentNumber.PaymentCardNumber.Mastercard.Validator.Tests.csproj", "{42F2F880-9295-425D-9214-06AA3D37F294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Mastercard.Validator.Tests", "tests\DocumentNumber.PaymentCardNumber.Mastercard.Validator.Tests\DocumentNumber.PaymentCardNumber.Mastercard.Validator.Tests.csproj", "{42F2F880-9295-425D-9214-06AA3D37F294}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.AmericanExpress.Validator", "src\DocumentNumber.PaymentCardNumber.AmericanExpress.Validator\DocumentNumber.PaymentCardNumber.AmericanExpress.Validator.csproj", "{22A7EE40-265A-45F7-A43E-74A525BC2EF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.AmericanExpress.Validator", "src\DocumentNumber.PaymentCardNumber.AmericanExpress.Validator\DocumentNumber.PaymentCardNumber.AmericanExpress.Validator.csproj", "{22A7EE40-265A-45F7-A43E-74A525BC2EF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Maestro.Validator", "src\DocumentNumber.PaymentCardNumber.Maestro.Validator\DocumentNumber.PaymentCardNumber.Maestro.Validator.csproj", "{BE2EC09E-24DD-4A1E-8FFD-E8A283CDCB7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Maestro.Validator", "src\DocumentNumber.PaymentCardNumber.Maestro.Validator\DocumentNumber.PaymentCardNumber.Maestro.Validator.csproj", "{BE2EC09E-24DD-4A1E-8FFD-E8A283CDCB7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Validator", "src\DocumentNumber.PaymentCardNumber.MaestroUK.Validator\DocumentNumber.PaymentCardNumber.MaestroUK.Validator.csproj", "{1B8875B5-8DA4-4F5F-9E18-47A7E0CFAE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Validator", "src\DocumentNumber.PaymentCardNumber.MaestroUK.Validator\DocumentNumber.PaymentCardNumber.MaestroUK.Validator.csproj", "{1B8875B5-8DA4-4F5F-9E18-47A7E0CFAE91}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Mastercard.Validator", "src\DocumentNumber.PaymentCardNumber.Mastercard.Validator\DocumentNumber.PaymentCardNumber.Mastercard.Validator.csproj", "{3A624FC3-BC36-4456-8435-642D120D35A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Mastercard.Validator", "src\DocumentNumber.PaymentCardNumber.Mastercard.Validator\DocumentNumber.PaymentCardNumber.Mastercard.Validator.csproj", "{3A624FC3-BC36-4456-8435-642D120D35A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,10 +112,6 @@ Global
 		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F173B3D9-2D55-4617-888D-1F912874D5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F173B3D9-2D55-4617-888D-1F912874D5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F173B3D9-2D55-4617-888D-1F912874D5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -162,9 +156,6 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4E16F536-C39A-4009-9B2E-7AB99B3A4FA2} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{D486314F-5766-44A0-B616-7DBEA0E4D302} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
@@ -177,7 +168,6 @@ Global
 		{2FD333BC-0804-437D-94CE-585D82C32003} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 		{4592D9EE-6333-4D65-A343-C0D6F3F8A3ED} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{1D1E90FD-5A78-45FA-AC99-5AE729606D4F} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
-		{8D4EC0FE-87F1-4D1B-B06E-9214839D1E34} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{F173B3D9-2D55-4617-888D-1F912874D5B2} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{5E83910B-0FFC-4C52-92EE-2B9EBF475C68} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 		{93B8322F-AA06-4B85-9BBC-F022493504BE} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
@@ -188,5 +178,8 @@ Global
 		{BE2EC09E-24DD-4A1E-8FFD-E8A283CDCB7A} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{1B8875B5-8DA4-4F5F-9E18-47A7E0CFAE91} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{3A624FC3-BC36-4456-8435-642D120D35A1} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}
 	EndGlobalSection
 EndGlobal

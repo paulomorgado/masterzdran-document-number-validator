@@ -1,4 +1,4 @@
-﻿using DocumentNumber.PaymentCardNumber.Common;
+﻿using DocumentNumber.PaymentCardNumber.Common.PaymentCard;
 using System;
 
 namespace DocumentNumber.PaymentCardNumber.VISAElectron.Validator
