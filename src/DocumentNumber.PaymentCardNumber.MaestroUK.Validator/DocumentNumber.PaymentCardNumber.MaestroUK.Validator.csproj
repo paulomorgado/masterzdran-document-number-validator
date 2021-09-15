@@ -6,20 +6,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>DocumentNumber.PaymentCardNumber.MaestroUK.Validator</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
-		<Authors>Nuno Cancelo</Authors>
 		<Title>DocumentNumber.PaymentCardNumber.MaestroUK.Validator</Title>
 		<Description>A library that validates if the payment card number (MaestroUK) is valid or not.</Description>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageIcon>cards.64.png</PackageIcon>
 		<PackageTags>Document Number Validation</PackageTags>
-		<RepositoryUrl>https://github.com/masterzdran/document-number-validator</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<RepositoryBranch>main</RepositoryBranch>
 	</PropertyGroup>
-	<ItemGroup>
-		<None Include="../../images/cards.64.png" Pack="true" PackagePath="\" />
-	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.1.0" />
 	</ItemGroup>
