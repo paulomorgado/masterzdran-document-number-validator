@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.PaymentCardNumber.VISAElectron.Validator</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.PaymentCardNumber.VISAElectron.Validator</PackageId>
+		<Title>DocumentNumber.PaymentCardNumber.VISAElectron.Validator</Title>
+		<Description>A library that validates if the payment card number (VISA Electron) is valid or not.</Description>
+		<PackageTags>Document Number Validation</PackageTags>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="DocumentNumber.ValidatorAbstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="DocumentNumber.PaymentCardNumber.Common" Version="1.2.0" />
+		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.1.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="DocumentNumber.ValidatorAbstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+	</ItemGroup>
+</Project>

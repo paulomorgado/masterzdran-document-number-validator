@@ -1,7 +1,6 @@
 namespace Portugal.CitizenCard.Validator.Tests
 {
   using Shouldly;
-  using System;
   using DocumentNumber.Portugal.CitizenCard.Validator;
   using Xunit;
   public class CitizenCardValidatorTests

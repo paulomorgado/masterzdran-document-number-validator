@@ -20,6 +20,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build Document.Validator.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test Document.Validator.sln /p:CollectCoverage=true /p:CoverletOutput=../../coverage/ /p:CoverletOutputFormat=opencover --no-build --verbosity normal

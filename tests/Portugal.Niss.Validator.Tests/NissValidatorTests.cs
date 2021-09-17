@@ -1,6 +1,5 @@
 using DocumentNumber.Portugal.Niss.Validator;
 using Shouldly;
-using System;
 using Xunit;
 
 namespace Portugal.Niss.Validator.Tests

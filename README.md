@@ -14,11 +14,50 @@ An set of libraries to validate the document number for a particular document an
 * DocumentNumber.Portugal.CitizenCard.Validator
     * Interface for Dependency Injection.
     * Implementation of Citizen Card validation algorithm.
+* DocumentNumber.PaymentCardNumber.Common
+    * Interface to be implemented on each validator.
+    * Exceptions and models.
+* DocumentNumber.PaymentCardNumber.AmericanExpress.Validator
+    * Interface for Dependency Injection.
+    * Implementation of AmericanExpress validation algorithm.
+* DocumentNumber.PaymentCardNumber.Maestro.Validator
+    * Interface for Dependency Injection.
+    * Implementation of Maestro validation algorithm.
+* DocumentNumber.PaymentCardNumber.MaestroUK.Validator
+    * Interface for Dependency Injection.
+    * Implementation of MaestroUK validation algorithm.
+* DocumentNumber.PaymentCardNumber.Mastercard.Validator
+    * Interface for Dependency Injection.
+    * Implementation of Mastercard validation algorithm.
+* DocumentNumber.PaymentCardNumber.VISA.Validator
+    * Interface for Dependency Injection.
+    * Implementation of VISA validation algorithm.
+* DocumentNumber.PaymentCardNumber.VISAElectron.Validator
+    * Interface for Dependency Injection.
+    * Implementation of VISAElectron validation algorithm.
+
 
 # Validators
 * Portugal NIF Number Validator
 * Portugal NISS Number Validator
 * Portugal Citizen Card Number Validator
+* AmericanExpress Validator
+* Maestro Validator
+* MaestroUK Validator
+* Mastercard Validator
+* VISA Validator
+* VISAElectron Validator
+
+# Usage
+Check the unit tests projects, under /tests/ for usage, 
+```csharp
+    IDocumentNumberValidator visaPaymentCardValidator = new VisaPaymentCardValidator();
+    var result = visaPaymentCardValidator.Validate(visacard);
+```
+```csharp
+      IDocumentNumberValidator validator = new NifValidator();
+      bool validationResult = validator.Validate(nif);
+```
 
 # Contributors
 * @masterzdran

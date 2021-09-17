@@ -1,5 +1,4 @@
-﻿using System;
-namespace DocumentNumber.ValidatorAbstractions
+﻿namespace DocumentNumber.ValidatorAbstractions
 {
   public interface IDocumentNumberValidator
   {

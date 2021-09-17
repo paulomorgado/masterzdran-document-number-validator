@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using DocumentNumber.ValidatorAbstractions;
 
 namespace Portugal.Nif.Validator
 {

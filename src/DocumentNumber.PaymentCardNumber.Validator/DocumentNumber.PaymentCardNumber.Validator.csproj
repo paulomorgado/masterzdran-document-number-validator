@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.PaymentCardNumber.Validator</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.PaymentCardNumber.Validator</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Authors>Nuno Cancelo</Authors>
+		<Title>DocumentNumber.PaymentCardNumber.Validator</Title>
+		<Description>A library that validates if the payment card number (Visa,Visa Electron, Mastercard, Maestro, Maestro UK, American Express) is valid or not.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>cards.64.png</PackageIcon>
+		<PackageTags>Document Number Validation</PackageTags>
+		<RepositoryUrl>https://github.com/masterzdran/document-number-validator</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryBranch>main</RepositoryBranch>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="../../images/cards.64.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.1.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DocumentNumber.PaymentCardNumber.Common\DocumentNumber.PaymentCardNumber.Common.csproj" />
+		<ProjectReference Include="..\DocumentNumber.PaymentCardNumber.VISA.Validator\DocumentNumber.PaymentCardNumber.VISA.Validator.csproj" />
+	</ItemGroup>
+</Project>
