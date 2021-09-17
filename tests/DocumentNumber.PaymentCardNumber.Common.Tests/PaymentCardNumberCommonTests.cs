@@ -1,6 +1,5 @@
 ﻿using DocumentNumber.PaymentCardNumber.Common.Algorithms;
 using Shouldly;
-using System;
 using Xunit;
 
 namespace DocumentNumber.PaymentCardNumber.Common.Tests

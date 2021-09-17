@@ -1,8 +1,6 @@
 ﻿using DocumentNumber.PaymentCardNumber.Common.Algorithms;
 using DocumentNumber.PaymentCardNumber.Common.Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DocumentNumber.PaymentCardNumber.AmericanExpress.Validator
 {
@@ -28,7 +26,7 @@ namespace DocumentNumber.PaymentCardNumber.AmericanExpress.Validator
         return false;
       }
 
-      double paymentCard = 0;
+      double paymentCard;
       if (!Double.TryParse(value, out paymentCard))
       {
         return false;

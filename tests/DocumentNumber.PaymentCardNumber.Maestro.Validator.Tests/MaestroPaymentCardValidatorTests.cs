@@ -2,13 +2,11 @@
 using DocumentNumber.PaymentCardNumber.Common.PaymentCard;
 using DocumentNumber.ValidatorAbstractions;
 using Shouldly;
-using System;
 using Xunit;
-using Xunit.Sdk;
 
 namespace DocumentNumber.PaymentCardNumber.Maestro.Validator.Tests
 {
-    public sealed class MaestroPaymentCardValidatorTests
+  public sealed class MaestroPaymentCardValidatorTests
     {
     [Fact(DisplayName = "PaymentCard Issuer should be Maestro.")]
     public void PaymentCard_IssuerIdentity_Should_is_Valid()

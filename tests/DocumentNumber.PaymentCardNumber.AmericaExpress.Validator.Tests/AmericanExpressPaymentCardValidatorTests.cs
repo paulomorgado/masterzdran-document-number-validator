@@ -1,14 +1,12 @@
 ﻿using DocumentNumber.PaymentCardNumber.AmericanExpress.Validator;
 using DocumentNumber.PaymentCardNumber.Common.Enums;
 using DocumentNumber.PaymentCardNumber.Common.PaymentCard;
-using DocumentNumber.ValidatorAbstractions;
 using Shouldly;
-using System;
 using Xunit;
 
 namespace DocumentNumber.PaymentCardNumber.AmericaExpress.Validator.Tests
 {
-    public sealed class AmericanExpressPaymentCardValidatorTests
+  public sealed class AmericanExpressPaymentCardValidatorTests
     {
 
     [Fact(DisplayName = "PaymentCard Issuer should be AmericanExpress.")]

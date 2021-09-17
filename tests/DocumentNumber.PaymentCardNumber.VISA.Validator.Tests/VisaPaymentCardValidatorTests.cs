@@ -2,9 +2,7 @@
 using DocumentNumber.PaymentCardNumber.Common.PaymentCard;
 using DocumentNumber.ValidatorAbstractions;
 using Shouldly;
-using System;
 using Xunit;
-using Xunit.Sdk;
 
 namespace DocumentNumber.PaymentCardNumber.VISA.Validator.Tests
 {

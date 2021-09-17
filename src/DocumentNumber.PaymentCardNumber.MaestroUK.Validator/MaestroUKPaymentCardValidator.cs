@@ -1,8 +1,6 @@
 ﻿using DocumentNumber.PaymentCardNumber.Common.Algorithms;
 using DocumentNumber.PaymentCardNumber.Common.Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DocumentNumber.PaymentCardNumber.MaestroUK.Validator
 {

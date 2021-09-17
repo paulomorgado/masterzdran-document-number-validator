@@ -1,6 +1,5 @@
 ﻿using DocumentNumber.PaymentCardNumber.Common.Enums;
 using DocumentNumber.PaymentCardNumber.Common.Issuer;
-using System;
 using System.Collections.Generic;
 
 namespace DocumentNumber.PaymentCardNumber.Common

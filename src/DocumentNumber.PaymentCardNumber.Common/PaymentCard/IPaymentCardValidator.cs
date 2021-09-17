@@ -1,6 +1,5 @@
 ﻿
 using DocumentNumber.ValidatorAbstractions;
-using System;
 
 namespace DocumentNumber.PaymentCardNumber.Common
 {

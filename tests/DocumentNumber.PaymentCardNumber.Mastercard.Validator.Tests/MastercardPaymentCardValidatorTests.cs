@@ -2,14 +2,11 @@
 using DocumentNumber.PaymentCardNumber.Common.PaymentCard;
 using DocumentNumber.ValidatorAbstractions;
 using Shouldly;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace DocumentNumber.PaymentCardNumber.Mastercard.Validator.Tests
 {
-    public class MastercardPaymentCardValidatorTests
+  public class MastercardPaymentCardValidatorTests
     {
 
     [Fact(DisplayName = "PaymentCard Issuer should be Mastercard.")]

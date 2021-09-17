@@ -1,5 +1,4 @@
-﻿using System;
-namespace DocumentNumber.PaymentCardNumber.Common.Enums
+﻿namespace DocumentNumber.PaymentCardNumber.Common.Enums
 {
   public enum PaymentCardIssuer
   {
