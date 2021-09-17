@@ -14,10 +14,8 @@
 		<None Remove="DocumentNumber.ValidatorAbstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
 	</ItemGroup>
 	<ItemGroup>
+		<PackageReference Include="DocumentNumber.PaymentCardNumber.Common" Version="1.2.0" />
 		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.1.0" />
-	</ItemGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\DocumentNumber.PaymentCardNumber.Common\DocumentNumber.PaymentCardNumber.Common.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="DocumentNumber.ValidatorAbstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />

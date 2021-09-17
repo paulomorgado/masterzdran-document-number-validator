@@ -1,4 +1,6 @@
-﻿using DocumentNumber.ValidatorAbstractions;
+﻿using DocumentNumber.PaymentCardNumber.Common.Enums;
+using DocumentNumber.PaymentCardNumber.Common.PaymentCard;
+using DocumentNumber.ValidatorAbstractions;
 using Shouldly;
 using System;
 using Xunit;
@@ -8,6 +10,19 @@ namespace DocumentNumber.PaymentCardNumber.VISA.Validator.Tests
 {
   public class VisaPaymentCardValidatorTests
   {
+    [Fact(DisplayName = "PaymentCard Issuer should be Visa.")]
+    public void PaymentCard_IssuerIdentity_Should_is_Valid()
+    {
+      // Arrange
+      IPaymentCardDocumentValidator paymentCardValidator = new VisaPaymentCardValidator();
+
+      // Act
+      var result = paymentCardValidator.IssuerIdentity;
+
+      // Assert
+      result.ShouldBe(PaymentCardIssuer.Visa);
+    }
+
     [Theory(DisplayName = "Payment Card Number Should be Invalid For Null Input.")]
     [InlineData(null)]
     public void PaymentCardNumber_Is_Invalid_If_Input_Is_Null(string value)
