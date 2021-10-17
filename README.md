@@ -14,6 +14,13 @@ An set of libraries to validate the document number for a particular document an
 * DocumentNumber.Portugal.CitizenCard.Validator
     * Interface for Dependency Injection.
     * Implementation of Citizen Card validation algorithm.
+* DocumentNumber.Portugal.BankAccountNumber.Validator
+    * Interface for Dependency Injection.
+    * Implementation of NIB validation algorithm.
+    * Allows both Domestic (NIB) and International (IBAN) formats
+* DocumentNumber.InternationalBankAccountNumber.Validator
+    * Interface for Dependency Injection.
+    * Implementation on the IBAN validation algorithm.
 * DocumentNumber.PaymentCardNumber.Common
     * Interface to be implemented on each validator.
     * Exceptions and models.
@@ -41,6 +48,8 @@ An set of libraries to validate the document number for a particular document an
 * Portugal NIF Number Validator
 * Portugal NISS Number Validator
 * Portugal Citizen Card Number Validator
+* Portugal NIB Validator
+* International Bank Account Number (IBAN) Validator
 * AmericanExpress Validator
 * Maestro Validator
 * MaestroUK Validator
