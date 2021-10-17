@@ -19,38 +19,55 @@ namespace DocumentNumber.InternationalBankAccountNumber.Validator
       var sanitizedValue = Sanitize(value);
       if(!IsValid(sanitizedValue))
       {
-        return false;
+        return ValidateNonIBAN(sanitizedValue);
       }
 
       var ibanMatch = IBANStructure.Match(sanitizedValue);
       if(!ibanMatch.Success)
       {
-        return false;
+        return ValidateNonIBAN(sanitizedValue);
       }
 
       var countryPart = ibanMatch.Groups[1].Value;
-      var domesticAccountNumber = ibanMatch.Groups[2].Value;
-
-      var replacedCountry = AlphaCharacters.Replace(countryPart, EvaluateAlphaReplace);
-      var replacedDomestic = AlphaCharacters.Replace(domesticAccountNumber, EvaluateAlphaReplace);
-
-      if(!ValidateDomesticAccountNumber(replacedDomestic))
+      if (!ValidateCountry(countryPart))
       {
         return false;
       }
 
+      var domesticAccountNumber = ibanMatch.Groups[2].Value;
+      var replacedDomestic = AlphaCharacters.Replace(domesticAccountNumber, EvaluateAlphaReplace);
+      if (!ValidateDomesticAccountNumber(replacedDomestic))
+      {
+        return false;
+      }
+
+      var replacedCountry = AlphaCharacters.Replace(countryPart, EvaluateAlphaReplace);
       var fullCheckString = replacedDomestic + replacedCountry;
 
       return ValidateIntegrity(fullCheckString);
     }
 
     /// <summary>
-    /// Perform validation on Domestic part of IBAN.
+    /// Allows Subclasses to perform validation for Non IBAN, full domestic BBAN
+    /// </summary>
+    /// <param name="value"></param>
+    /// <returns></returns>
+    protected virtual bool ValidateNonIBAN(string value) => false;
+
+    /// <summary>
+    /// Allows Subclasses to Perform validation on Domestic part of IBAN.
     /// Value has already the alpha characters converted to numeric
     /// </summary>
     /// <param name="value"></param>
     /// <returns></returns>
     protected virtual bool ValidateDomesticAccountNumber(string value) => true;
+
+    /// <summary>
+    /// Allows Subclasses to perform validation on the country part of IBAN
+    /// </summary>
+    /// <param name="value"></param>
+    /// <returns></returns>
+    protected virtual bool ValidateCountry(string value) => true;
 
     /// <summary>
     /// Apply MOD 97-10 algorithm from ISO/IEC7064:2003
@@ -86,7 +103,7 @@ namespace DocumentNumber.InternationalBankAccountNumber.Validator
     /// </summary>
     /// <param name="match"></param>
     /// <returns></returns>
-    private static string EvaluateAlphaReplace(Match match)
+    protected static string EvaluateAlphaReplace(Match match)
     {
       if(!match.Success)
       {
