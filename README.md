@@ -70,6 +70,9 @@ Check the unit tests projects, under /tests/ for usage,
 
 # Contributors
 * @masterzdran
+* @joaomatossilva
+   * Portugal NIB Validator
+   * International Bank Account Number (IBAN) Validator
 
 
 # Attribution 
