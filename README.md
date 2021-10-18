@@ -69,8 +69,8 @@ Check the unit tests projects, under /tests/ for usage,
 ```
 
 # Contributors
-* @masterzdran
-* @joaomatossilva
+* [@masterzdran](https://github.com/masterzdran)
+* [@joaomatossilva](https://github.com/joaomatossilva)
    * Portugal NIB Validator
    * International Bank Account Number (IBAN) Validator
 
