@@ -63,6 +63,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Mastercard.Validator", "src\DocumentNumber.PaymentCardNumber.Mastercard.Validator\DocumentNumber.PaymentCardNumber.Mastercard.Validator.csproj", "{3A624FC3-BC36-4456-8435-642D120D35A1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.InternationalBankAccountNumber.Validator", "src\DocumentNumber.InternationalBankAccountNumber.Validator\DocumentNumber.InternationalBankAccountNumber.Validator.csproj", "{04D3C1FB-33B0-46CF-A9A5-CA4A5D7894AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.InternationalBankAccountNumber.Validator.Tests", "tests\DocumentNumber.InternationalBankAccountNumber.Validator.Tests\DocumentNumber.InternationalBankAccountNumber.Validator.Tests.csproj", "{52EDF428-13F2-4378-AA76-50BAC4B06377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.BankAccountNumber.Validator", "src\DocumentNumber.Portugal.BankAccountNumber.Validator\DocumentNumber.Portugal.BankAccountNumber.Validator.csproj", "{372D3AC4-44A9-4C67-9555-D22B1729846F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.BankAccountNumber.Validator.Tests", "tests\DocumentNumber.Portugal.BankAccountNumber.Validator.Tests\DocumentNumber.Portugal.BankAccountNumber.Validator.Tests.csproj", "{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +161,22 @@ Global
 		{3A624FC3-BC36-4456-8435-642D120D35A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A624FC3-BC36-4456-8435-642D120D35A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A624FC3-BC36-4456-8435-642D120D35A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D3C1FB-33B0-46CF-A9A5-CA4A5D7894AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D3C1FB-33B0-46CF-A9A5-CA4A5D7894AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D3C1FB-33B0-46CF-A9A5-CA4A5D7894AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D3C1FB-33B0-46CF-A9A5-CA4A5D7894AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EDF428-13F2-4378-AA76-50BAC4B06377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EDF428-13F2-4378-AA76-50BAC4B06377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EDF428-13F2-4378-AA76-50BAC4B06377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EDF428-13F2-4378-AA76-50BAC4B06377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372D3AC4-44A9-4C67-9555-D22B1729846F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372D3AC4-44A9-4C67-9555-D22B1729846F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372D3AC4-44A9-4C67-9555-D22B1729846F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372D3AC4-44A9-4C67-9555-D22B1729846F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +203,10 @@ Global
 		{BE2EC09E-24DD-4A1E-8FFD-E8A283CDCB7A} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{1B8875B5-8DA4-4F5F-9E18-47A7E0CFAE91} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{3A624FC3-BC36-4456-8435-642D120D35A1} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{04D3C1FB-33B0-46CF-A9A5-CA4A5D7894AD} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{52EDF428-13F2-4378-AA76-50BAC4B06377} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
+		{372D3AC4-44A9-4C67-9555-D22B1729846F} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}
