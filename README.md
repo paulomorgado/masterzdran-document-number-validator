@@ -2,48 +2,6 @@
 # ![DocumentNumber.Portugal](./images/cards.32.png "document-number-validator") document-number-validator
 An set of libraries to validate the document number for a particular document and particular country.
 
-# Projects
-* DocumentNumber.ValidatorAbstractions
-    * Interface to be implemented on each validator.
-* DocumentNumber.Portugal.Nif.Validator
-    * Interface for Dependency Injection.
-    * Implementation of NIF validation algorithm.
-* DocumentNumber.Portugal.Niss.Validator
-    * Interface for Dependency Injection.
-    * Implementation of NISS validation algorithm.
-* DocumentNumber.Portugal.CitizenCard.Validator
-    * Interface for Dependency Injection.
-    * Implementation of Citizen Card validation algorithm.
-* DocumentNumber.Portugal.BankAccountNumber.Validator
-    * Interface for Dependency Injection.
-    * Implementation of NIB validation algorithm.
-    * Allows both Domestic (NIB) and International (IBAN) formats
-* DocumentNumber.InternationalBankAccountNumber.Validator
-    * Interface for Dependency Injection.
-    * Implementation on the IBAN validation algorithm.
-* DocumentNumber.PaymentCardNumber.Common
-    * Interface to be implemented on each validator.
-    * Exceptions and models.
-* DocumentNumber.PaymentCardNumber.AmericanExpress.Validator
-    * Interface for Dependency Injection.
-    * Implementation of AmericanExpress validation algorithm.
-* DocumentNumber.PaymentCardNumber.Maestro.Validator
-    * Interface for Dependency Injection.
-    * Implementation of Maestro validation algorithm.
-* DocumentNumber.PaymentCardNumber.MaestroUK.Validator
-    * Interface for Dependency Injection.
-    * Implementation of MaestroUK validation algorithm.
-* DocumentNumber.PaymentCardNumber.Mastercard.Validator
-    * Interface for Dependency Injection.
-    * Implementation of Mastercard validation algorithm.
-* DocumentNumber.PaymentCardNumber.VISA.Validator
-    * Interface for Dependency Injection.
-    * Implementation of VISA validation algorithm.
-* DocumentNumber.PaymentCardNumber.VISAElectron.Validator
-    * Interface for Dependency Injection.
-    * Implementation of VISAElectron validation algorithm.
-
-
 # Validators
 * Portugal NIF Number Validator
 * Portugal NISS Number Validator
@@ -56,6 +14,36 @@ An set of libraries to validate the document number for a particular document an
 * Mastercard Validator
 * VISA Validator
 * VISAElectron Validator
+
+## [Unreleased]
+## [1.3.0] - 2021-10-23
+### Added
+- Portugal NIB Validator (netcoreapp3.1; netstandard2.1) - Contribuition of [@joaomatossilva](https://github.com/joaomatossilva)
+- International Bank Account Number (IBAN) Validator (netcoreapp3.1; netstandard2.1) - Contribuition of [@joaomatossilva](https://github.com/joaomatossilva)
+
+## [1.2.0] - 2021-09-17
+### Added
+- DocumentNumber.PaymentCardNumber.AmericanExpress.Validator (netcoreapp3.1; netstandard2.1)
+- DocumentNumber.PaymentCardNumber.Maestro.Validator (netcoreapp3.1; netstandard2.1)
+- DocumentNumber.PaymentCardNumber.MaestroUK.Validator (netcoreapp3.1; netstandard2.1)
+- DocumentNumber.PaymentCardNumber.Mastercard.Validator (netcoreapp3.1; netstandard2.1)
+- DocumentNumber.PaymentCardNumber.VISA.Validator (netcoreapp3.1; netstandard2.1)
+- DocumentNumber.PaymentCardNumber.VISAElectron.Validator (netcoreapp3.1; netstandard2.1)
+
+## [1.1.0] - 2021-01-17
+### Added
+- DocumentNumber.Portugal.CitizenCard.Validator (netcoreapp3.1; netstandard2.1)
+- DocumentNumber.ValidatorAbstractions (netstandard2.1)
+- DocumentNumber.Portugal.Nif.Validator (netstandard2.1)
+- DocumentNumber.Portugal.Niss.Validator (netstandard2.1)
+## [1.0.0] - 2020-12-30
+### Added
+- DocumentNumber.ValidatorAbstractions (netcoreapp3.1)
+- DocumentNumber.Portugal.Nif.Validator (netcoreapp3.1)
+- DocumentNumber.Portugal.Niss.Validator (netcoreapp3.1)
+
+
+
 
 # Usage
 Check the unit tests projects, under /tests/ for usage, 

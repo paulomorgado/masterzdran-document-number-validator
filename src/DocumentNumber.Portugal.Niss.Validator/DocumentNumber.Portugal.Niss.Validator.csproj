@@ -11,6 +11,6 @@
 		<PackageTags>Document Number Validation</PackageTags>
 	</PropertyGroup>
 	<ItemGroup>
-	  <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.1.0" />
+	  <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.3.0" />
 	</ItemGroup>
 </Project>
