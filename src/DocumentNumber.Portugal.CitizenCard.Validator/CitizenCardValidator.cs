@@ -1,10 +1,11 @@
 ﻿namespace DocumentNumber.Portugal.CitizenCard.Validator
 {
-  public sealed class CitizenCardValidator :ICitizenCardValidator
+  using DocumentNumber.Portugal.CitizenCard.Generator;
+  using System;
+
+  public sealed class CitizenCardValidator : ICitizenCardValidator
   {
-    private const int CharTranslationValue = 55;
-    private const int CharTranslationNumberValue = 48;
-    
+
     ///<inheritdoc/>
     public bool Validate(string value)
     {
@@ -12,36 +13,15 @@
       {
         return false;
       }
-
-      int sum = 0;
-      for (int index = 0; index < value.Trim().Length; index++)
-      {
-        int translatedValue = this.TranslatedValue(value[index]);
-        if ((index % 2) == 0 )
-        {
-          translatedValue *= 2;
-          if (translatedValue > 9)
-          {
-            translatedValue -= 9;
-          }
-        }
-        sum += translatedValue;
-      }
-
-      return (sum % 10) == 0;
-    }
-
-    private int TranslatedValue(char c)
-    {
-      if (c >= '0' && c <= '9')
-      {
-        return c - CharTranslationNumberValue;
-      }
-      return c - CharTranslationValue;
+      int inputCheckDigit = Int32.Parse($"{value[value.Length - 1]}");
+      string unckecedCitizenCard = value.Substring(0, value.Length - 1);
+      CitizenCardNumberGenerator citizenCardGenerator = new CitizenCardNumberGenerator();
+      int calculatedCheckDigit = citizenCardGenerator.CalculateCheckDigit(unckecedCitizenCard);
+      return inputCheckDigit == calculatedCheckDigit;
     }
 
 
-    private bool IsInputValid( string value)
+    private bool IsInputValid(string value)
     {
       if (value == null)
       {

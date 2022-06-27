@@ -15,7 +15,19 @@ An set of libraries to validate the document number for a particular document an
 * VISA Validator
 * VISAElectron Validator
 
+# Generators
+* Portugal NIF Number Generator
+* Portugal NISS Number Generator
+* Portugal Citizen Card Number Generator
+
 ## [Unreleased]
+## [1.4.0] - 2022-06-27
+### Added
+- Portugal NIF Generator (for testing purposes)
+- Portugal NISS Generator (for testing purposes)
+- Portugal CC Generator (for testing purposes)
+
+
 ## [1.3.0] - 2021-10-23
 ### Added
 - Portugal NIB Validator (netcoreapp3.1; netstandard2.1) - Contribuition of [@joaomatossilva](https://github.com/joaomatossilva)

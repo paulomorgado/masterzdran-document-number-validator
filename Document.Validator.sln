@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.809.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Nif.Validator", "src\DocumentNumber.Portugal.Nif.Validator\DocumentNumber.Portugal.Nif.Validator.csproj", "{4E16F536-C39A-4009-9B2E-7AB99B3A4FA2}"
 EndProject
@@ -69,7 +69,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Internationa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.BankAccountNumber.Validator", "src\DocumentNumber.Portugal.BankAccountNumber.Validator\DocumentNumber.Portugal.BankAccountNumber.Validator.csproj", "{372D3AC4-44A9-4C67-9555-D22B1729846F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.BankAccountNumber.Validator.Tests", "tests\DocumentNumber.Portugal.BankAccountNumber.Validator.Tests\DocumentNumber.Portugal.BankAccountNumber.Validator.Tests.csproj", "{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.BankAccountNumber.Validator.Tests", "tests\DocumentNumber.Portugal.BankAccountNumber.Validator.Tests\DocumentNumber.Portugal.BankAccountNumber.Validator.Tests.csproj", "{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Niss.Generator.Tests", "tests\DocumentNumber.Portugal.Niss.Generator.Tests\DocumentNumber.Portugal.Niss.Generator.Tests.csproj", "{6AD2BA78-7A84-401D-9249-4FFEEAA462B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.CitizenCard.Generator.Tests", "tests\DocumentNumber.Portugal.CitizenCard.Validator.Tests\DocumentNumber.Portugal.CitizenCard.Generator.Tests.csproj", "{736E7CE1-82DB-4CCA-93C5-C53AD6B1CCC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.CitizenCard.Generator", "src\DocumentNumber.Portugal.CitizenCard.Generator\DocumentNumber.Portugal.CitizenCard.Generator.csproj", "{A17CEBA5-CC2C-47B8-A2D8-E7DDC7D81BDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Niss.Generator", "src\DocumentNumber.Portugal.Niss.Generator\DocumentNumber.Portugal.Niss.Generator.csproj", "{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Nif.Generator", "src\DocumentNumber.Portugal.Nif.Generator\DocumentNumber.Portugal.Nif.Generator.csproj", "{372CCAEB-14B9-4951-85C3-AC484A600079}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Nif.Generator.Tests", "tests\DocumentNumber.Portugal.Nif.Generator.Tests\DocumentNumber.Portugal.Nif.Generator.Tests.csproj", "{B855111F-E5DB-49B6-B8B2-A558DAA6E832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +189,30 @@ Global
 		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD2BA78-7A84-401D-9249-4FFEEAA462B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD2BA78-7A84-401D-9249-4FFEEAA462B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD2BA78-7A84-401D-9249-4FFEEAA462B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD2BA78-7A84-401D-9249-4FFEEAA462B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736E7CE1-82DB-4CCA-93C5-C53AD6B1CCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736E7CE1-82DB-4CCA-93C5-C53AD6B1CCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736E7CE1-82DB-4CCA-93C5-C53AD6B1CCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736E7CE1-82DB-4CCA-93C5-C53AD6B1CCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17CEBA5-CC2C-47B8-A2D8-E7DDC7D81BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17CEBA5-CC2C-47B8-A2D8-E7DDC7D81BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17CEBA5-CC2C-47B8-A2D8-E7DDC7D81BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17CEBA5-CC2C-47B8-A2D8-E7DDC7D81BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372CCAEB-14B9-4951-85C3-AC484A600079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372CCAEB-14B9-4951-85C3-AC484A600079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372CCAEB-14B9-4951-85C3-AC484A600079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372CCAEB-14B9-4951-85C3-AC484A600079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B855111F-E5DB-49B6-B8B2-A558DAA6E832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B855111F-E5DB-49B6-B8B2-A558DAA6E832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B855111F-E5DB-49B6-B8B2-A558DAA6E832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B855111F-E5DB-49B6-B8B2-A558DAA6E832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +243,12 @@ Global
 		{52EDF428-13F2-4378-AA76-50BAC4B06377} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 		{372D3AC4-44A9-4C67-9555-D22B1729846F} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{8BFF6235-8DDE-4A80-A5E6-16BE86ED3EAC} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
+		{6AD2BA78-7A84-401D-9249-4FFEEAA462B5} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
+		{736E7CE1-82DB-4CCA-93C5-C53AD6B1CCC8} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
+		{A17CEBA5-CC2C-47B8-A2D8-E7DDC7D81BDB} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{372CCAEB-14B9-4951-85C3-AC484A600079} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
+		{B855111F-E5DB-49B6-B8B2-A558DAA6E832} = {C097DE10-B80A-4DFF-8E86-869F99876ECF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}
