@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [1.4.0] - 2022-06-27
+### Added
+- Portugal NIF Generator (for testing purposes)
+- Portugal NISS Generator (for testing purposes)
+- Portugal CC Generator (for testing purposes)
+
 ## [1.3.0] - 2021-10-23
 ### Added
 - Portugal NIB Validator - Contribuition of [@joaomatossilva](https://github.com/joaomatossilva)

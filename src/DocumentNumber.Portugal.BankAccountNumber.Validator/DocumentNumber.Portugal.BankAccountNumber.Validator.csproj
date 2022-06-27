@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DocumentNumber.InternationalBankAccountNumber.Validator" Version="1.3.0" />
-    <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.3.0" />
+    <PackageReference Include="DocumentNumber.InternationalBankAccountNumber.Validator" Version="1.4.0" />
+    <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.4.0" />
   </ItemGroup>
 
 </Project>

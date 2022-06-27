@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+    <AssemblyName>DocumentNumber.Portugal.Nif.Generator</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>DocumentNumber.Portugal.Nif.Generator</PackageId>
+    <Title>DocumentNumber.Portugal.Nif.Generator</Title>
+    <Description>A library that generates a valid NIF (tax payer id) for testing purposes.</Description>
+    <PackageTags>Document Number Validation</PackageTags>
+  </PropertyGroup>
+
+</Project>
