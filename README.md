@@ -1,5 +1,5 @@
 
-# ![DocumentNumber.Portugal](./images/cards.32.png "document-number-validator") document-number-validator
+# ![DocumentNumber.Portugal](https://raw.githubusercontent.com/masterzdran/document-number-validator/develop/images/cards.64.png "document-number-validator") document-number-validator
 An set of libraries to validate the document number for a particular document and particular country.
 
 # Validators
