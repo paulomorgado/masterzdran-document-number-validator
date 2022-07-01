@@ -6,10 +6,10 @@
     public static int LuhnAlgorithm(string value)
     {
       var sum = 0;
-      for (int idx = 0; idx < value.Length; idx++)
+      for (int idx = value.Length - 1; idx > -1; idx--)
       {
-        int number = value[value.Length - 1 - idx] - '0';
-        if (((value.Length - 1 - idx) % 2) == 0)
+        int number = value[idx] - '0';
+        if ((value.Length - idx & 0x1) == 0)
         {
           number = number * 2;
           number = number / 10 + number % 10;

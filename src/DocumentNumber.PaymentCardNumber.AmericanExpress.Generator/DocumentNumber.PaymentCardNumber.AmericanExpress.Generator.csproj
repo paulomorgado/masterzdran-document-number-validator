@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.PaymentCardNumber.AmericanExpress.Generator</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.PaymentCardNumber.AmericanExpress.Generator</PackageId>
+		<Title>DocumentNumber.PaymentCardNumber.AmericanExpress.Generator</Title>
+		<Description>A library that generate Portuguese IBAN (International Bank Account Id) for testing purposes. </Description>
+		<PackageTags>Document Number Validation</PackageTags>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentNumber.PaymentCardNumber.AmericanExpress.Validator\DocumentNumber.PaymentCardNumber.AmericanExpress.Validator.csproj" />
+    <ProjectReference Include="..\DocumentNumber.PaymentCardNumber.Generator.Common\DocumentNumber.PaymentCardNumber.Generator.Common.csproj" />
+  </ItemGroup>
+
+</Project>
