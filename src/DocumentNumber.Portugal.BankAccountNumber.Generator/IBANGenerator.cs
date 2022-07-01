@@ -2,7 +2,7 @@
 {
   public abstract class IBANGenerator : IIBANGenerator
   {
-    public int CalculateCheckDigit(string uncheckedNumber)
+    public string CalculateCheckDigit(string uncheckedNumber)
     {
       var result = 0;
 
@@ -15,7 +15,7 @@
       }
 
       int checkdigit = 98 - ((result * 10) % 97);
-      return checkdigit;
+      return $"{checkdigit:00}";
     }
     public abstract string GenerateDocumentNumber();
   }

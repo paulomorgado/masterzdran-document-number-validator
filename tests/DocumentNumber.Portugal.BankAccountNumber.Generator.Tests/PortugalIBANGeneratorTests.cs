@@ -7,16 +7,15 @@ namespace DocumentNumber.Portugal.BankAccountNumber.Generator.Tests
 
   public class PortugalIBANGeneratorTests
   {
-    [Fact(DisplayName = "For given NIB '0007427356884896649', the given checkdigit must be '98'")]
-    public void Test1()
+    [Theory(DisplayName = "For given NIB, the given checkdigit must match")]
+    [InlineData("0007116694057233171","04")]
+    public void Test1(string unchecdNib, string checkDigit)
     {
       // Arrange
       IBANGenerator generator = new PortugalIbanGenerator();
-      string unchecdNib = "0007427356884896649";
-      int checkDigit = 98;
 
       // Act
-      int calculatedCheckDigit = generator.CalculateCheckDigit(unchecdNib);
+      string calculatedCheckDigit = generator.CalculateCheckDigit(unchecdNib);
 
       // Assert
       calculatedCheckDigit.ShouldBe(checkDigit);
