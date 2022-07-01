@@ -21,6 +21,15 @@ An set of libraries to validate the document number for a particular document an
 * Portugal Citizen Card Number Generator
 
 ## [Unreleased]
+
+## [1.5.0] - 2022-07-01
+### Added
+- Portugal Iban Generator (for testing purposes)
+
+## [1.4.1] 2022-06-28
+### Fix
+Yeah, I mess up a lib and this will fix it.
+
 ## [1.4.0] - 2022-06-27
 ### Added
 - Portugal NIF Generator (for testing purposes)

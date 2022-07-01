@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
   <PropertyGroup>
-    <PackageVersion>1.4.0</PackageVersion>
+    <PackageVersion>1.5.0</PackageVersion>
     <Authors>Nuno Cancelo,João Matos Silva</Authors>
     <PackageIcon>cards.64.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
