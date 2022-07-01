@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.Portugal.BankAccountNumber.Generator</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.Portugal.BankAccountNumber.Generator</PackageId>
+		<Title>DocumentNumber.Portugal.BankAccountNumber.Generator</Title>
+		<Description>A library that generate Portuguese IBAN (International Bank Account Id) for testing purposes.</Description>
+		<PackageTags>Document Number Validation</PackageTags>
+	</PropertyGroup>
+
+</Project>
