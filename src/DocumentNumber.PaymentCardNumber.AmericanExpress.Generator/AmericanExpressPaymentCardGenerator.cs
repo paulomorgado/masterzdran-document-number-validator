@@ -5,22 +5,22 @@
 
   public class AmericanExpressPaymentCardGenerator : CreditCardGeneratorBase
   {
-    private int[] validStartNumber = { 34, 37 };
-    public readonly int DocumentNumberCardLenght = 15;
-    public override string GenerateDocumentNumber()
+    public AmericanExpressPaymentCardGenerator()
     {
-      Random random = new Random();
-      int startWith = validStartNumber[random.Next(0,1)];
-      string generatedDocumentNumber = this.GenerateDocumentNumber(startWith);
-      return generatedDocumentNumber;
+      this.ValidStartNumber = new[] { "34", "37" };
+      this.ValidDocumentNumberLength = new[] { 15 };
     }
-    public override string GenerateDocumentNumber(int startWith)
+    
+    public override string[] ValidStartNumber { get; }
+    public override int[] ValidDocumentNumberLength { get;  }
+
+    public override string GenerateDocumentNumber(string startWith)
     {
       Random random = new Random();
       int part1 = random.Next(100000, 999999);
       int part2 = random.Next(100000, 999999);
       string uncheckedDocumentNumber = $"{startWith}{part1}{part2}";
-      int checkDigit = CalculateCheckDigit(uncheckedDocumentNumber);
+      string checkDigit = CalculateCheckDigit(uncheckedDocumentNumber);
       string generatedDocumentNumber = $"{uncheckedDocumentNumber}{checkDigit}";
 
       return generatedDocumentNumber;
