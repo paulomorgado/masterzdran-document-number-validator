@@ -29,7 +29,7 @@ namespace DocumentNumber.Portugal.Nif.Generator.Tests
     public void GeneratedNifShouldHaveNineDigits()
     {
       // Arrange
-      INifGenerator nifGenerator = new NifGenerator();
+      NifGenerator nifGenerator = new NifGenerator();
 
       // Act
       string generatedNif = nifGenerator.GenerateDocumentNumber();

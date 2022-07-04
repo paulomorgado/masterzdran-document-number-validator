@@ -27,7 +27,7 @@ namespace DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests
     [Theory(DisplayName = "Generated Document Number must start with '34' and have 15 chars long.")]
     [InlineData("34")]
     [InlineData("37")]
-    public void GeneratedIbanMustStartWithNumber(string startsWith)
+    public void GeneratedDocumentNumberMustStartAndHave(string startsWith)
     {
       // Arrange
       AmericanExpressPaymentCardGenerator generator = new AmericanExpressPaymentCardGenerator();
@@ -42,7 +42,7 @@ namespace DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests
     }
 
     [Fact(DisplayName = "Generated Document Number must be valid.")]
-    public void GeneratedIbanMustBeValid()
+    public void GeneratedDocumentNumberMustMustBeValid()
     {
       // Arrange
       AmericanExpressPaymentCardGenerator generator = new AmericanExpressPaymentCardGenerator();

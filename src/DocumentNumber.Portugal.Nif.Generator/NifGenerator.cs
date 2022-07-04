@@ -27,8 +27,9 @@
     public string GenerateDocumentNumber()
     {
       Random random = new Random();
-      int randomIndex = random.Next(0, _nifGroups.Length);
-      string generatedNif = GenerateDocumentNumber(randomIndex);
+      int randomIndex = random.Next(0, _nifGroups.Length - 1);
+      int startWith = _nifGroups[randomIndex];
+      string generatedNif = GenerateDocumentNumber(startWith);
       return generatedNif;
     }
 

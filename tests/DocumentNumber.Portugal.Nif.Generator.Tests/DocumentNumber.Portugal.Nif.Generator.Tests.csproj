@@ -22,6 +22,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\src\DocumentNumber.Portugal.Nif.Generator\DocumentNumber.Portugal.Nif.Generator.csproj" />
     <ProjectReference Include="..\..\src\DocumentNumber.Portugal.Nif.Validator\DocumentNumber.Portugal.Nif.Validator.csproj" />
   </ItemGroup>
 

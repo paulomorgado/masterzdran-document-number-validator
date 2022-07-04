@@ -91,19 +91,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validators", "Validators", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generators", "Generators", "{F1977DB3-431F-44D1-9B4B-67CCACF955F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.BankAccountNumber.Generator.Tests", "tests\DocumentNumber.Portugal.BankAccountNumber.Generator.Tests\DocumentNumber.Portugal.BankAccountNumber.Generator.Tests.csproj", "{92841ED3-139C-45B7-A740-B4047C646FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.BankAccountNumber.Generator.Tests", "tests\DocumentNumber.Portugal.BankAccountNumber.Generator.Tests\DocumentNumber.Portugal.BankAccountNumber.Generator.Tests.csproj", "{92841ED3-139C-45B7-A740-B4047C646FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.Portugal.BankAccountNumber.Generator", "src\DocumentNumber.Portugal.BankAccountNumber.Generator\DocumentNumber.Portugal.BankAccountNumber.Generator.csproj", "{9C12CBD8-852D-415E-8914-F4B7CA1D9B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.BankAccountNumber.Generator", "src\DocumentNumber.Portugal.BankAccountNumber.Generator\DocumentNumber.Portugal.BankAccountNumber.Generator.csproj", "{9C12CBD8-852D-415E-8914-F4B7CA1D9B9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Generator.Common", "src\DocumentNumber.PaymentCardNumber.Generator.Common\DocumentNumber.PaymentCardNumber.Generator.Common.csproj", "{5FDE47B0-C15A-4D87-961A-D6B4D2A743A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Generator.Common", "src\DocumentNumber.PaymentCardNumber.Generator.Common\DocumentNumber.PaymentCardNumber.Generator.Common.csproj", "{5FDE47B0-C15A-4D87-961A-D6B4D2A743A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.AmericanExpress.Generator", "src\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.csproj", "{5BD7F0B9-5927-47DB-AD81-F2301E55A2AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.AmericanExpress.Generator", "src\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.csproj", "{5BD7F0B9-5927-47DB-AD81-F2301E55A2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests.csproj", "{6437B1E3-E59C-4CAE-AC6F-55D532F26684}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests\DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests.csproj", "{6437B1E3-E59C-4CAE-AC6F-55D532F26684}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Maestro.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.Maestro.Generator.Tests\DocumentNumber.PaymentCardNumber.Maestro.Generator.Tests.csproj", "{CDA3755C-22F4-4C7F-A50F-231CF7F732EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Maestro.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.Maestro.Generator.Tests\DocumentNumber.PaymentCardNumber.Maestro.Generator.Tests.csproj", "{CDA3755C-22F4-4C7F-A50F-231CF7F732EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Maestro.Generator", "src\DocumentNumber.PaymentCardNumber.Maestro.Generator\DocumentNumber.PaymentCardNumber.Maestro.Generator.csproj", "{16F22911-8DFE-45FE-A5BC-FA07468B5F52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Maestro.Generator", "src\DocumentNumber.PaymentCardNumber.Maestro.Generator\DocumentNumber.PaymentCardNumber.Maestro.Generator.csproj", "{16F22911-8DFE-45FE-A5BC-FA07468B5F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator", "src\DocumentNumber.PaymentCardNumber.MaestroUK.Generator\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.csproj", "{21EDF95A-A193-458D-BDCF-6C87022E541B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests.csproj", "{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,6 +267,14 @@ Global
 		{16F22911-8DFE-45FE-A5BC-FA07468B5F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16F22911-8DFE-45FE-A5BC-FA07468B5F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16F22911-8DFE-45FE-A5BC-FA07468B5F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EDF95A-A193-458D-BDCF-6C87022E541B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EDF95A-A193-458D-BDCF-6C87022E541B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EDF95A-A193-458D-BDCF-6C87022E541B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EDF95A-A193-458D-BDCF-6C87022E541B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,6 +322,8 @@ Global
 		{6437B1E3-E59C-4CAE-AC6F-55D532F26684} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 		{CDA3755C-22F4-4C7F-A50F-231CF7F732EA} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 		{16F22911-8DFE-45FE-A5BC-FA07468B5F52} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
+		{21EDF95A-A193-458D-BDCF-6C87022E541B} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
+		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}

@@ -18,7 +18,8 @@
     public string GenerateDocumentNumber()
     {
       Random random = new Random();
-      string startWith = ValidStartNumbers[random.Next(0, ValidDocumentNumberLengths.Length-1)];
+      int startWithIndex = random.Next(0, (ValidStartNumbers.Length - 1));
+      string startWith = ValidStartNumbers[startWithIndex];
       string generatedDocumentNumber = this.GenerateDocumentNumber(startWith);
       return generatedDocumentNumber;
     }
