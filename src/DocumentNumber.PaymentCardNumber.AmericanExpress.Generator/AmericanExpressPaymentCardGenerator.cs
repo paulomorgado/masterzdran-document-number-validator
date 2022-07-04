@@ -7,23 +7,8 @@
   {
     public AmericanExpressPaymentCardGenerator()
     {
-      this.ValidStartNumber = new[] { "34", "37" };
-      this.ValidDocumentNumberLength = new[] { 15 };
-    }
-    
-    public override string[] ValidStartNumber { get; }
-    public override int[] ValidDocumentNumberLength { get;  }
-
-    public override string GenerateDocumentNumber(string startWith)
-    {
-      Random random = new Random();
-      int part1 = random.Next(100000, 999999);
-      int part2 = random.Next(100000, 999999);
-      string uncheckedDocumentNumber = $"{startWith}{part1}{part2}";
-      string checkDigit = CalculateCheckDigit(uncheckedDocumentNumber);
-      string generatedDocumentNumber = $"{uncheckedDocumentNumber}{checkDigit}";
-
-      return generatedDocumentNumber;
+      this.ValidStartNumbers = new[] { "34", "37" };
+      this.ValidDocumentNumberLengths = new[] { 15 };
     }
   }
 }

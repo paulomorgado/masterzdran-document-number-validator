@@ -1,3 +1,4 @@
+using DocumentNumber.PaymentCardNumber.Maestro.Validator;
 using Shouldly;
 using System;
 using Xunit;
@@ -44,6 +45,22 @@ namespace DocumentNumber.PaymentCardNumber.Maestro.Generator.Tests
       // Assert
       generatedDocumentNumber.ShouldNotBeNullOrEmpty();
       generatedDocumentNumber.ShouldStartWith($"{startsWith}");
+    }
+
+    [Fact(DisplayName = "Ramdom Generated Document Number is valid")]
+    public void RandomGeneratedDocumentNumberIsValid()
+    {
+      // Arrange
+      MaestroPaymentCardGenerator generator = new MaestroPaymentCardGenerator();
+      MaestroPaymentCardValidator validator = new MaestroPaymentCardValidator();
+
+      // Act
+      string generatedDocumentNumber = generator.GenerateDocumentNumber();
+      bool documentNumberIsValid = validator.Validate(generatedDocumentNumber);
+
+      // Assert
+      generatedDocumentNumber.ShouldNotBeNullOrEmpty();
+      documentNumberIsValid.ShouldBeTrue();
     }
   }
 }

@@ -38,7 +38,7 @@ namespace DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests
       // Assert
       generatedDocumentNumber.ShouldNotBeNullOrEmpty();
       generatedDocumentNumber.ShouldStartWith($"{startsWith}");
-      generatedDocumentNumber.Length.ShouldBe(generator.ValidDocumentNumberLength[generator.ValidDocumentNumberLength.Length - 1]);
+      generatedDocumentNumber.Length.ShouldBe(15);
     }
 
     [Fact(DisplayName = "Generated Document Number must be valid.")]

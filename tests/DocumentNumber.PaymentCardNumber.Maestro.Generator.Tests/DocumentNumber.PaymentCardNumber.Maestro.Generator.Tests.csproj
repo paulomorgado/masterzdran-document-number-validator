@@ -23,6 +23,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\..\src\DocumentNumber.PaymentCardNumber.Maestro.Generator\DocumentNumber.PaymentCardNumber.Maestro.Generator.csproj" />
+	  <ProjectReference Include="..\..\src\DocumentNumber.PaymentCardNumber.Maestro.Validator\DocumentNumber.PaymentCardNumber.Maestro.Validator.csproj" />
 	</ItemGroup>
 
 </Project>
