@@ -21,6 +21,10 @@
       var calculatedCheckDigit = sum % 11;
 
       var simplifiedCheckDigit = (calculatedCheckDigit == 0 || calculatedCheckDigit == 1) ? 0 : 11 - calculatedCheckDigit;
+      if (simplifiedCheckDigit > 9)
+      {
+        simplifiedCheckDigit = simplifiedCheckDigit % 10;
+      }
       return (int)simplifiedCheckDigit;
     }
 
