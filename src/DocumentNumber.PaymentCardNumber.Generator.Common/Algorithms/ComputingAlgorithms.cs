@@ -18,6 +18,10 @@
         sum += number;
       }
       int checkDigit = 10 - (sum % 10);
+      if (checkDigit > 9)
+      {
+        checkDigit = checkDigit % 10;
+      }
       return checkDigit;
     }
   }

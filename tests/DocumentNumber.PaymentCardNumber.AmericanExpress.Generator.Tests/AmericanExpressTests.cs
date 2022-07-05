@@ -1,18 +1,18 @@
 namespace DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests
 {
-  using Xunit;
   using DocumentNumber.PaymentCardNumber.AmericanExpress.Generator;
-  using Shouldly;
   using DocumentNumber.PaymentCardNumber.AmericanExpress.Validator;
+  using Shouldly;
+  using Xunit;
 
   public class AmericanExpressTests
-    {
+  {
     [Fact(DisplayName = "For given American Express '341994407069942', the given checkdigit must be '4'")]
     public void Test1()
     {
       // Arrange
       AmericanExpressPaymentCardGenerator generator = new AmericanExpressPaymentCardGenerator();
-      
+
       string uncheckedDocumentNumber = "341994407069942";
       string checkDigit = "4";
 
@@ -34,6 +34,7 @@ namespace DocumentNumber.PaymentCardNumber.AmericanExpress.Generator.Tests
 
       // Act
       string generatedDocumentNumber = generator.GenerateDocumentNumber(startsWith);
+
 
       // Assert
       generatedDocumentNumber.ShouldNotBeNullOrEmpty();

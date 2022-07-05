@@ -1,9 +1,7 @@
 ﻿namespace DocumentNumber.PaymentCardNumber.Generator.Common.Generators
 {
   using DocumentNumber.PaymentCardNumber.Common.Algorithms;
-  using DocumentNumber.PaymentCardNumber.Generator.Common.Generators;
   using System;
-  using System.Collections.Generic;
   using System.Text;
 
   public abstract class CreditCardGeneratorBase
@@ -13,7 +11,8 @@
 
     public string CalculateCheckDigit(string uncheckedNumber)
     {
-      return $"{ComputingAlgorithms.LuhnAlgorithm($"{uncheckedNumber}0"):0}";
+      int checkDigit = ComputingAlgorithms.LuhnAlgorithm($"{uncheckedNumber}0");
+      return $"{checkDigit:0}";
     }
     public string GenerateDocumentNumber()
     {
@@ -31,7 +30,7 @@
       StringBuilder randomNumber = new StringBuilder();
       int number;
 
-      while (randomNumber.Length < documentNumberLength - (startsWith.Length + 1))
+      while (randomNumber.Length < documentNumberLength - startsWith.Length - 1)
       {
         number = random.Next(0, 9);
         randomNumber.Append(number);
