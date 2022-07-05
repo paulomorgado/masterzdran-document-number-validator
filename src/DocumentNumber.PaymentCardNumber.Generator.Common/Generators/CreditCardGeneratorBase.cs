@@ -14,7 +14,7 @@
       int checkDigit = ComputingAlgorithms.LuhnAlgorithm($"{uncheckedNumber}0");
       return $"{checkDigit:0}";
     }
-    public string GenerateDocumentNumber()
+    public virtual string GenerateDocumentNumber()
     {
       Random random = new Random();
       int startWithIndex = random.Next(0, (ValidStartNumbers.Length - 1));

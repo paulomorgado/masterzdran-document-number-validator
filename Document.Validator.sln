@@ -112,6 +112,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests.csproj", "{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Mastercard.Generator", "src\DocumentNumber.PaymentCardNumber.Mastercard.Generator\DocumentNumber.PaymentCardNumber.Mastercard.Generator.csproj", "{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests\DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests.csproj", "{60F1D470-AD2C-4486-A1CF-F5605424F30C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -278,6 +282,14 @@ Global
 		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F1D470-AD2C-4486-A1CF-F5605424F30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F1D470-AD2C-4486-A1CF-F5605424F30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F1D470-AD2C-4486-A1CF-F5605424F30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F1D470-AD2C-4486-A1CF-F5605424F30C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -327,6 +339,8 @@ Global
 		{16F22911-8DFE-45FE-A5BC-FA07468B5F52} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
 		{21EDF95A-A193-458D-BDCF-6C87022E541B} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
 		{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
+		{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
+		{60F1D470-AD2C-4486-A1CF-F5605424F30C} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}
