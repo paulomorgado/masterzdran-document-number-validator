@@ -4,6 +4,7 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
     <AssemblyName>DocumentNumber.Portugal.Niss.Generator</AssemblyName>
+	  <IsPackable>true</IsPackable>
   </PropertyGroup>
   <PropertyGroup>
     <PackageId>DocumentNumber.Portugal.Niss.Generator</PackageId>

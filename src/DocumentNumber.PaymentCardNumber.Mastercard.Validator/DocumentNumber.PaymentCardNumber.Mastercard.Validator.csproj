@@ -3,6 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
 		<AssemblyName>DocumentNumber.PaymentCardNumber.Mastercard.Validator</AssemblyName>
+		<IsPackable>true</IsPackable>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>DocumentNumber.PaymentCardNumber.Mastercard.Validator</PackageId>
