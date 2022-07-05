@@ -10,8 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 		CHANGELOG.md = CHANGELOG.md
-		directory.build.props = directory.build.props
 		global.json = global.json
+		Directory.Build.props = Directory.Build.props
 		LICENSE = LICENSE
 		nuget.config = nuget.config
 		README.md = README.md
@@ -20,6 +20,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D81C1D7-6538-46DB-A36C-ACDC0775A365}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C097DE10-B80A-4DFF-8E86-869F99876ECF}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Directory.Build.props = tests\Directory.Build.props
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portugal.Nif.Validator.Tests", "tests\Portugal.Nif.Validator.Tests\Portugal.Nif.Validator.Tests.csproj", "{D486314F-5766-44A0-B616-7DBEA0E4D302}"
 EndProject
@@ -105,9 +108,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Maestro.Generator", "src\DocumentNumber.PaymentCardNumber.Maestro.Generator\DocumentNumber.PaymentCardNumber.Maestro.Generator.csproj", "{16F22911-8DFE-45FE-A5BC-FA07468B5F52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator", "src\DocumentNumber.PaymentCardNumber.MaestroUK.Generator\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.csproj", "{21EDF95A-A193-458D-BDCF-6C87022E541B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator", "src\DocumentNumber.PaymentCardNumber.MaestroUK.Generator\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.csproj", "{21EDF95A-A193-458D-BDCF-6C87022E541B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests.csproj", "{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests.csproj", "{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
