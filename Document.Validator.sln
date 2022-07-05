@@ -120,6 +120,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISA.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISA.Generator.Tests\DocumentNumber.PaymentCardNumber.VISA.Generator.Tests.csproj", "{3056A864-35C6-4C82-AE47-686C23259D6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Generator", "src\DocumentNumber.PaymentCardNumber.VISAElectron.Generator\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.csproj", "{E60D6205-68DD-4CA7-BC35-4290FC4B77D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests.csproj", "{F4094D56-DDAA-4767-B064-6C444803F10E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -302,6 +306,14 @@ Global
 		{3056A864-35C6-4C82-AE47-686C23259D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3056A864-35C6-4C82-AE47-686C23259D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3056A864-35C6-4C82-AE47-686C23259D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60D6205-68DD-4CA7-BC35-4290FC4B77D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60D6205-68DD-4CA7-BC35-4290FC4B77D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60D6205-68DD-4CA7-BC35-4290FC4B77D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60D6205-68DD-4CA7-BC35-4290FC4B77D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4094D56-DDAA-4767-B064-6C444803F10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4094D56-DDAA-4767-B064-6C444803F10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4094D56-DDAA-4767-B064-6C444803F10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4094D56-DDAA-4767-B064-6C444803F10E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -355,6 +367,8 @@ Global
 		{60F1D470-AD2C-4486-A1CF-F5605424F30C} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 		{71A8136B-483A-4B3C-8BB9-7FA29AB6238E} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
 		{3056A864-35C6-4C82-AE47-686C23259D6C} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
+		{E60D6205-68DD-4CA7-BC35-4290FC4B77D7} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
+		{F4094D56-DDAA-4767-B064-6C444803F10E} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}
