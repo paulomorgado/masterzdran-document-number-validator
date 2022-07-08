@@ -10,8 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 		CHANGELOG.md = CHANGELOG.md
-		global.json = global.json
 		Directory.Build.props = Directory.Build.props
+		global.json = global.json
 		LICENSE = LICENSE
 		nuget.config = nuget.config
 		README.md = README.md
@@ -82,8 +82,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Cit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Niss.Generator", "src\DocumentNumber.Portugal.Niss.Generator\DocumentNumber.Portugal.Niss.Generator.csproj", "{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Nif.Generator", "src\DocumentNumber.Portugal.Nif.Generator\DocumentNumber.Portugal.Nif.Generator.csproj", "{372CCAEB-14B9-4951-85C3-AC484A600079}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Nif.Generator.Tests", "tests\DocumentNumber.Portugal.Nif.Generator.Tests\DocumentNumber.Portugal.Nif.Generator.Tests.csproj", "{B855111F-E5DB-49B6-B8B2-A558DAA6E832}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validators", "Validators", "{4C46E5A4-0178-4311-94FE-D78C76D831EE}"
@@ -112,17 +110,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.Tests.csproj", "{9C13CA4B-2993-4981-99D5-F32ABC3C6F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Mastercard.Generator", "src\DocumentNumber.PaymentCardNumber.Mastercard.Generator\DocumentNumber.PaymentCardNumber.Mastercard.Generator.csproj", "{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Mastercard.Generator", "src\DocumentNumber.PaymentCardNumber.Mastercard.Generator\DocumentNumber.PaymentCardNumber.Mastercard.Generator.csproj", "{1E040CC2-AF4A-4D05-8AC7-FD0F48524BCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests\DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests.csproj", "{60F1D470-AD2C-4486-A1CF-F5605424F30C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests\DocumentNumber.PaymentCardNumber.Mastercard.Generator.Tests.csproj", "{60F1D470-AD2C-4486-A1CF-F5605424F30C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISA.Generator", "src\DocumentNumber.PaymentCardNumber.VISA.Generator\DocumentNumber.PaymentCardNumber.VISA.Generator.csproj", "{71A8136B-483A-4B3C-8BB9-7FA29AB6238E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISA.Generator", "src\DocumentNumber.PaymentCardNumber.VISA.Generator\DocumentNumber.PaymentCardNumber.VISA.Generator.csproj", "{71A8136B-483A-4B3C-8BB9-7FA29AB6238E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISA.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISA.Generator.Tests\DocumentNumber.PaymentCardNumber.VISA.Generator.Tests.csproj", "{3056A864-35C6-4C82-AE47-686C23259D6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISA.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISA.Generator.Tests\DocumentNumber.PaymentCardNumber.VISA.Generator.Tests.csproj", "{3056A864-35C6-4C82-AE47-686C23259D6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Generator", "src\DocumentNumber.PaymentCardNumber.VISAElectron.Generator\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.csproj", "{E60D6205-68DD-4CA7-BC35-4290FC4B77D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Generator", "src\DocumentNumber.PaymentCardNumber.VISAElectron.Generator\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.csproj", "{E60D6205-68DD-4CA7-BC35-4290FC4B77D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests.csproj", "{F4094D56-DDAA-4767-B064-6C444803F10E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests", "tests\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests\DocumentNumber.PaymentCardNumber.VISAElectron.Generator.Tests.csproj", "{F4094D56-DDAA-4767-B064-6C444803F10E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentNumber.Portugal.Nif.Generator", "src\DocumentNumber.Portugal.Nif.Generator\DocumentNumber.Portugal.Nif.Generator.csproj", "{239774BA-1565-45C6-9961-02D9BA047970}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -246,10 +246,6 @@ Global
 		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{372CCAEB-14B9-4951-85C3-AC484A600079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{372CCAEB-14B9-4951-85C3-AC484A600079}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{372CCAEB-14B9-4951-85C3-AC484A600079}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{372CCAEB-14B9-4951-85C3-AC484A600079}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B855111F-E5DB-49B6-B8B2-A558DAA6E832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B855111F-E5DB-49B6-B8B2-A558DAA6E832}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B855111F-E5DB-49B6-B8B2-A558DAA6E832}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -314,6 +310,10 @@ Global
 		{F4094D56-DDAA-4767-B064-6C444803F10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4094D56-DDAA-4767-B064-6C444803F10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4094D56-DDAA-4767-B064-6C444803F10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239774BA-1565-45C6-9961-02D9BA047970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239774BA-1565-45C6-9961-02D9BA047970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239774BA-1565-45C6-9961-02D9BA047970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239774BA-1565-45C6-9961-02D9BA047970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -348,7 +348,6 @@ Global
 		{736E7CE1-82DB-4CCA-93C5-C53AD6B1CCC8} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 		{A17CEBA5-CC2C-47B8-A2D8-E7DDC7D81BDB} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
 		{0AD082EB-5C04-4896-9B0B-9F0A404BE4AD} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
-		{372CCAEB-14B9-4951-85C3-AC484A600079} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
 		{B855111F-E5DB-49B6-B8B2-A558DAA6E832} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 		{4C46E5A4-0178-4311-94FE-D78C76D831EE} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
 		{392712F8-3BA5-4729-9E92-2733AFA4853C} = {6D81C1D7-6538-46DB-A36C-ACDC0775A365}
@@ -369,6 +368,7 @@ Global
 		{3056A864-35C6-4C82-AE47-686C23259D6C} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
 		{E60D6205-68DD-4CA7-BC35-4290FC4B77D7} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
 		{F4094D56-DDAA-4767-B064-6C444803F10E} = {F1977DB3-431F-44D1-9B4B-67CCACF955F1}
+		{239774BA-1565-45C6-9961-02D9BA047970} = {392712F8-3BA5-4729-9E92-2733AFA4853C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9033BEB-EFFA-4BA9-97C4-7344F3BA4E9A}
