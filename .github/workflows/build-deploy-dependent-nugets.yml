@@ -1,4 +1,4 @@
-name: Build And Deploy Non Libraries
+name: Build And Deploy Dependent Libraries
 
 on:
   push:    
@@ -54,7 +54,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           path: './dist'
-          
+
   publish_nuget_org:
     needs: build_and_test
     runs-on: ubuntu-latest
