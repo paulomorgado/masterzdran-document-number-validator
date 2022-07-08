@@ -1,27 +1,50 @@
 
-# ![DocumentNumber.Portugal](./images/cards.32.png "document-number-validator") document-number-validator
+# ![DocumentNumber.Portugal](https://raw.githubusercontent.com/masterzdran/document-number-validator/develop/images/cards.64.png "document-number-validator") document-number-validator
 An set of libraries to validate the document number for a particular document and particular country.
-
-# Projects
-* DocumentNumber.ValidatorAbstractions
-    * Interface to be implemented on each validator.
-* DocumentNumber.Portugal.Nif.Validator
-    * Interface for Dependency Injection.
-    * Implementation of NIF validation algorithm.
-* DocumentNumber.Portugal.Niss.Validator
-    * Interface for Dependency Injection.
-    * Implementation of NISS validation algorithm.
-* DocumentNumber.Portugal.CitizenCard.Validator
-    * Interface for Dependency Injection.
-    * Implementation of Citizen Card validation algorithm.
 
 # Validators
 * Portugal NIF Number Validator
 * Portugal NISS Number Validator
 * Portugal Citizen Card Number Validator
+* Portugal NIB Validator
+* International Bank Account Number (IBAN) Validator
+* AmericanExpress Validator
+* Maestro Validator
+* MaestroUK Validator
+* Mastercard Validator
+* VISA Validator
+* VISAElectron Validator
+
+# Generators (for testing purposes)
+* Portugal NIF Number Generator
+* Portugal NISS Number Generator
+* Portugal Citizen Card Number Generator
+* AmericanExpress Generator
+* Maestro Generator
+* MaestroUK Generator
+* Mastercard Generator
+* VISA Generator
+* VISAElectron Generator
+* BankAccountNumber Generator
+# Changelog
+[Change log.](https://raw.githubusercontent.com/masterzdran/document-number-validator/develop/CHANGELOG.md)
+
+# Usage
+Check the unit tests projects, under /tests/ for usage, 
+```csharp
+    IDocumentNumberValidator visaPaymentCardValidator = new VisaPaymentCardValidator();
+    var result = visaPaymentCardValidator.Validate(visacard);
+```
+```csharp
+      IDocumentNumberValidator validator = new NifValidator();
+      bool validationResult = validator.Validate(nif);
+```
 
 # Contributors
-* @masterzdran
+* [@masterzdran](https://github.com/masterzdran)
+* [@joaomatossilva](https://github.com/joaomatossilva)
+   * Portugal NIB Validator
+   * International Bank Account Number (IBAN) Validator
 
 
 # Attribution 

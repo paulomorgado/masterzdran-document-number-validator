@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.PaymentCardNumber.Common</AssemblyName>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.PaymentCardNumber.Common</PackageId>
+		<Title>DocumentNumber.PaymentCardNumber.Common</Title>
+		<Description>A library that validates if the payment card number (VISA) is valid or not.</Description>
+		<PackageTags>Document Number Validation</PackageTags>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.5.0" />
+	</ItemGroup>
+</Project>

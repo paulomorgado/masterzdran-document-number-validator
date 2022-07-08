@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.Portugal.BankAccountNumber.Validator</AssemblyName>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>DocumentNumber.Portugal.BankAccountNumber.Validator</PackageId>
+		<Title>DocumentNumber.Portugal.BankAccountNumber.Validator</Title>
+		<Description>A library that validates if Portuguese International Bank Account number (IBAN) is valid or not.</Description>
+		<PackageTags>Document Number Validation</PackageTags>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentNumber.InternationalBankAccountNumber.Validator" Version="1.5.0" />
+    <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.5.0" />
+  </ItemGroup>
+
+</Project>

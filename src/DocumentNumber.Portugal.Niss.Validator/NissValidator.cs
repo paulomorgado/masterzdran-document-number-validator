@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentNumber.Portugal.Niss.Generator;
+using System;
 namespace DocumentNumber.Portugal.Niss.Validator
 {
   public sealed class NissValidator : INissValidator
@@ -27,20 +28,8 @@ namespace DocumentNumber.Portugal.Niss.Validator
 
     private bool ValidateNiss(long valueAsInt)
     {
-      var validationFactors = new int[] { 29, 23, 19, 17, 13, 11, 7, 5, 3, 2, 0 };
-
-      long number = valueAsInt;
-      long sum = 0;
-      long remainer = 0;
-
-      for (int index = 10; index >= 0; index--)
-      {
-        remainer = number % 10;
-        sum += remainer * validationFactors[index];
-        number = number / 10;
-      }
-      var remaining = sum % 10;
-      var calculatedCheckDigit = 9 - remaining;
+      NissGenerator nissGenerator = new NissGenerator();
+      int calculatedCheckDigit = nissGenerator.CalculateCheckDigit(valueAsInt / 10);
       return (valueAsInt % 10) == calculatedCheckDigit;
     }
   }

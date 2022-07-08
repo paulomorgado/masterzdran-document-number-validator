@@ -1,6 +1,6 @@
-﻿using System;
+﻿using DocumentNumber.Portugal.Nif.Generator;
+using System;
 using System.Collections.Generic;
-using DocumentNumber.ValidatorAbstractions;
 
 namespace Portugal.Nif.Validator
 {
@@ -40,19 +40,9 @@ namespace Portugal.Nif.Validator
     {
       long checkDigit = value % 10;
       long number = (int)(value / 10);
-      long sum = 0;
-
-      long remainer = 0;
-      for (int factor = 2; factor < 10; factor++)
-      {
-        remainer = number % 10;
-        sum += remainer * factor;
-        number = number / 10;
-      }
-      var calculatedCheckDigit = sum % 11;
-
-      var simplifiedCheckDigit = (calculatedCheckDigit == 0 || calculatedCheckDigit == 1) ? 0 : 11 - calculatedCheckDigit;
-      return checkDigit == simplifiedCheckDigit;
+      NifGenerator nifGenerator = new NifGenerator();
+      var calculatedCheckDigit = nifGenerator.CalculateCheckDigit(number);
+      return checkDigit == calculatedCheckDigit;
     }
 
     private bool HasValidScopeId(string nif)

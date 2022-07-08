@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+	  <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\DocumentNumber.Portugal.Niss.Validator\DocumentNumber.Portugal.Niss.Validator.csproj" />
+  </ItemGroup>
+
+</Project>

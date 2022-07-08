@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\DocumentNumber.PaymentCardNumber.Common\DocumentNumber.PaymentCardNumber.Common.csproj" />
+	</ItemGroup>
+</Project>

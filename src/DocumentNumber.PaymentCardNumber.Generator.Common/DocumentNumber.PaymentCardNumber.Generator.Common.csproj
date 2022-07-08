@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.PaymentCardNumber.Generator.Common</AssemblyName>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.PaymentCardNumber.Generator.Common</PackageId>
+		<Title>DocumentNumber.PaymentCardNumber.Generator.Common</Title>
+		<Description>A library that have common functionalities.</Description>
+		<PackageTags>Document Number Validation</PackageTags>
+	</PropertyGroup>
+
+</Project>

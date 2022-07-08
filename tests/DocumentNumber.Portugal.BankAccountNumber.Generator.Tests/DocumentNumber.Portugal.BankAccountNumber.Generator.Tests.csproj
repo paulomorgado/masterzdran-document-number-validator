@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+	  <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\DocumentNumber.Portugal.BankAccountNumber.Generator\DocumentNumber.Portugal.BankAccountNumber.Generator.csproj" />
+	  <ProjectReference Include="..\..\src\DocumentNumber.Portugal.BankAccountNumber.Validator\DocumentNumber.Portugal.BankAccountNumber.Validator.csproj" />
+	</ItemGroup>
+
+</Project>

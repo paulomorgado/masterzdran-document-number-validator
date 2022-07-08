@@ -2,7 +2,6 @@
 {
   using Portugal.Nif.Validator;
   using Shouldly;
-  using System;
   using Xunit;
 
   public sealed class NifValidatorTests

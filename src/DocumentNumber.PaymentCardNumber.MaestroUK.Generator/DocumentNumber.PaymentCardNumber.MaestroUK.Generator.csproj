@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netcoreapp3.1; netstandard2.1</TargetFrameworks>
+		<AssemblyName>DocumentNumber.PaymentCardNumber.MaestroUK.Generator</AssemblyName>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>DocumentNumber.PaymentCardNumber.MaestroUK.Generator</PackageId>
+		<Title>DocumentNumber.PaymentCardNumber.MaestroUK.Generator</Title>
+		<Description>A library that generate MaestroUK Credit Card Document Number, for testing purposes. </Description>
+		<PackageTags>Document Number Validation</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DocumentNumber.PaymentCardNumber.Generator.Common" Version="1.5.0" />
+	</ItemGroup>
+
+</Project>

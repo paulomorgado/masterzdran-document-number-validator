@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\DocumentNumber.PaymentCardNumber.MaestroUK.Generator\DocumentNumber.PaymentCardNumber.MaestroUK.Generator.csproj" />
+	  <ProjectReference Include="..\..\src\DocumentNumber.PaymentCardNumber.MaestroUK.Validator\DocumentNumber.PaymentCardNumber.MaestroUK.Validator.csproj" />
+	</ItemGroup>
+
+</Project>
