@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="DocumentNumber.InternationalBankAccountNumber.Validator" Version="1.4.0" />
-    <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.4.0" />
+    <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.5.0" />
   </ItemGroup>
 
 </Project>

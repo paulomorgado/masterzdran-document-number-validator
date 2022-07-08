@@ -11,7 +11,7 @@
 		<PackageTags>Document Number Validation</PackageTags>
 	</PropertyGroup>
 	<ItemGroup>
-	  <PackageReference Include="DocumentNumber.Portugal.Nif.Generator" Version="1.4.0" />
-	  <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.4.0" />
+	  <PackageReference Include="DocumentNumber.Portugal.Nif.Generator" Version="1.5.0" />
+	  <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.5.0" />
 	</ItemGroup>
 </Project>

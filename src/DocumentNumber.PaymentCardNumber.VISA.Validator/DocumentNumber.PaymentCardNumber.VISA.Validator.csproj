@@ -13,6 +13,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="DocumentNumber.PaymentCardNumber.Common" Version="1.4.0" />
-		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.4.0" />
+		<PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.5.0" />
 	</ItemGroup>
 </Project>

@@ -6,9 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.5.0] - 2022-07-01
+## [1.5.0] - 2022-07-08
 ### Added
-- Portugal Iban Generator (for testing purposes)
+- DocumentNumber.PaymentCardNumber.AmericanExpress.Generator (for testing purposes)
+- DocumentNumber.PaymentCardNumber.Maestro.Generator (for testing purposes)
+- DocumentNumber.PaymentCardNumber.MaestroUK.Generator (for testing purposes)
+- DocumentNumber.PaymentCardNumber.Mastercard.Generator (for testing purposes)
+- DocumentNumber.PaymentCardNumber.VISA.Generator (for testing purposes)
+- DocumentNumber.PaymentCardNumber.VISAElectron.Generator (for testing purposes)
+- DocumentNumber.Portugal.BankAccountNumber.Generator (for testing purposes)
+- DocumentNumber.Portugal.CitizenCard.Generator (for testing purposes)
 
 ## [1.4.1] 2022-06-28
 ### Fix
