@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
-	  <IsPackable>false</IsPackable>
+	<IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\DocumentNumber.Portugal.CitizenCard.Validator\DocumentNumber.Portugal.CitizenCard.Validator.csproj" />

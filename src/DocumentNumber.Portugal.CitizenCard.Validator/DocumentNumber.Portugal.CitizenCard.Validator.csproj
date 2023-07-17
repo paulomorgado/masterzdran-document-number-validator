@@ -12,8 +12,8 @@
         <PackageTags>Document Number Validation</PackageTags>
     </PropertyGroup>
     <ItemGroup>
-      <PackageReference Include="DocumentNumber.Portugal.CitizenCard.Generator" Version="1.5.0" />
-      <PackageReference Include="DocumentNumber.ValidatorAbstractions" Version="1.5.0" />
-    </ItemGroup>
+      <ProjectReference Include="..\DocumentNumber.Portugal.CitizenCard.Generator\DocumentNumber.Portugal.CitizenCard.Generator.csproj" />
+ 	  <ProjectReference Include="..\DocumentNumber.ValidatorAbstractions\DocumentNumber.ValidatorAbstractions.csproj" />
+   </ItemGroup>
 
 </Project>

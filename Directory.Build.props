@@ -12,9 +12,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="../../images/cards.64.png" Pack="true" PackagePath="\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="../../README.md" Pack="true" PackagePath="\"/>
+    <None Include="$(MSBuildThisFileDirectory)/images/cards.64.png" Pack="true" PackagePath="\" />
+    <None Include="$(MSBuildThisFileDirectory)/README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
@@ -6,6 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\DocumentNumber.Portugal.Nif.Validator\DocumentNumber.Portugal.Nif.Validator.csproj" />
+	<ProjectReference Include="..\..\src\DocumentNumber.ValidatorAbstractions\DocumentNumber.ValidatorAbstractions.csproj" />
   </ItemGroup>
 
 </Project>
